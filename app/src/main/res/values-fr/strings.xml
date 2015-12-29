@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- FRENCH VERSION -->
+    
+    <string name="app_name">WTP Estimation Outils</string>
+    <string name="action_settings">Param&#233;tres</string>
+
+    <!-- ======================= -->
+    <!-- Main Screen -->
+    <!-- ======================= -->
+    <string name="boilerWaterButtonText">Les estimations de chaudi&#233;re &#233; vapeur du produit</string>
+    <string name="coolingWaterButtonText">Refroidissement eau estimations du produit</string>
+    <string name="boilerLabel">Chaudi&#233;re &#233; Vapeur</string>
+    <string name="coolingLabel">Syst&#233;me de Refroidissement</string>
+    <string name="solidLabel">Chimiques Solides</string>
+    <string name="liquidLabel">Chimiques Liquides</string>
+    <string name="helpLabel">Aide</string>
+    <string name="aboutUsLabel">Qui sommes-nous</string>
+    <string name="contactUsLabel">Contactez-nous</string>
+    <string name="space"></string>
+
+    <!-- ======================= -->
+    <!-- Chaudi&#233;re &#233; Vapeur Data Entry -->
+    <!-- ======================= -->
+    <string name="action_estimate">Estimater</string>
+    <string name="boilerInputActivity">Param&#233;tres de la chaudi&#233;re &#233; vapeur</string>
+    <string name="siteNameLabel">Nom du site</string>
+    <string name="sitePrompt">Nom: </string>
+    <string name="siteHint">Entrez le nom du site</string>
+    <string name="inputError">S\'il vous plaît entrer toutes les données</string>
+    
+    <!--  -->
+    <string name="boilerDutyLabel">Chaudi&#233;re Duty</string>
+    <string name="summerTitle">Et&#233;</string>
+    <string name="winterTitle">Hiver</string>
+    <string name="steamPrompt">Vapeur(lb/hr)</string>
+    <string name="steamSumHint">Vapeur d\'&#233;t&#233;</string>
+    <string name="steamWinHint">Vapeur d\'hiver</string>
+    <string name="hoursPrompt">Heures/Jour</string>
+    <string name="hoursSumHint">Heures d\'&#233;t&#233;</string>
+    <string name="hoursWinHint">Heures d\'hiver</string>
+    <string name="daysPrompt">Jours/Semaine</string>
+    <string name="daysSumHint">Jours d\'&#233;t&#233;</string>
+    <string name="daysWinHint">Jours d\'hiver</string>
+    <string name="weeksPrompt">Semaines/Ann&#233;e</string>
+    <string name="weeksSumHint">Semaines d\'&#233;t&#233;</string>
+    <string name="weeksWinHint">Semaines d\'hiver</string>
+    <!--  -->
+    <string name="feedWaterLabel">L\'eau d\'Alimentation</string>
+    <string name="TDSPrompt">TDS</string>
+    <string name="TDSHint">TDS</string>
+    <string name="TDSUnit">ppm</string>
+    <string name="MAlkPrompt">M Alk</string>
+    <string name="MAlkHint">M Alk</string>
+    <string name="MAlkUnit">ppm</string>
+    <string name="pHPrompt">pH</string>
+    <string name="pHHint">pH</string>
+    <string name="pHUnit"></string>
+    <string name="CaHardnessPrompt">Ca Duret&#233;</string>
+    <string name="CaHardnessHint">Ca Duret&#233;</string>
+    <string name="CaHardnessUnit">ppm</string>
+    <string name="tempPrompt">Temp&#233;rature</string>
+    <string name="tempHint">Temp&#233;rature</string>
+    <string name="tempUnit">&#176;C</string>
+
+    <!--  -->
+    <string name="boilerDetailsLabel">Chaudi&#233;re D&#233;tails</string>
+    <string name="maxTDSPrompt">Max TDS</string>
+    <string name="maxTDSHint">Max TDS</string>
+    <string name="maxTDSUnit">ppm</string>
+    <string name="minSulphitePrompt">Min R&#233;serve de Sulfite</string>
+    <string name="minSulphiteHint">Min R&#233;serve de Sulfite</string>
+    <string name="minSulphiteUnit">ppm</string>
+    <string name="minCausticPrompt">Min Alcalinit&#233; Caustique</string>
+    <string name="minCausticHint">Min Alcalinit&#233; Caustique</string>
+    <string name="minCausticUnit"></string>
+
+    <!-- ======================= -->
+    <!-- Chaudi&#233;re &#233; Vapeur Solids Product Estimates -->
+    <!-- ======================= -->
+    <string name="boilerSolidsResultsActivity">Estimations de la Chaudi&#233;re &#233; Vapeur (Solides)</string>
+    <string name="action_email">Email</string>
+    <string name="productTitle">Produit</string>
+    <string name="dosageTitle">Dosage</string>
+    <string name="dosageUnits">(g/m&#179;)</string>
+    <string name="usageTitle">Usage</string>
+    <string name="usageUnits">(kg/an)</string>
+
+    <string name="ss1294Description">Absorbeur d\'oxygène à base de tanin</string>
+    <string name="ss1295Description">Tout en un - Sulfite</string>
+    <string name="ss1350Description">Tout en un - Sulfite, pas de soude caustique</string>
+    <string name="ss1095Description">Sulfite de sodium</string>
+    <string name="ss1995Description">Alcalinit&#233; Builder</string>
+    <string name="ss2295Description">Phosphate/Polym&#233;re</string>
+    <string name="ss8985Description">Amines</string>
+
+    <!-- ======================= -->
+    <!-- Chaudi&#233;re &#233; Vapeur Liquids Product Estimates -->
+    <!-- ======================= -->
+    <string name="boilerLiquidsResultsActivity">Estimations de la Chaudi&#233;re &#233; Vapeur (Liquides)</string>
+
+    <string name="s5Description">17% que le bisulfite de sodium / catalys&#233;e</string>
+    <string name="s10Description">35% que le bisulfite de sodium / catalys&#233;e</string>
+    <string name="s123Description">Tout en un Low Sulfite</string>
+    <string name="s125Description">Tout en un High Sulfite</string>
+    <string name="s26Description">25% tanin/caustique</string>
+    <string name="s28Description">25% tanin</string>
+    <string name="s19Description">Alcalinit&#233; Builder</string>
+    <string name="s456Description">M&#233;lange de Polym&#233;res</string>
+    <string name="s124Description">Tout en un tanin produit</string>
+    <string name="s22Description">Phosphate/Polym&#233;re</string>
+    <string name="s23Description">Phosphate/Polym&#233;re/Caustique</string>
+    <string name="s88Description">Morpholine/Cyclohex</string>
+    <string name="s95Description">Le tournage et les amines neutralisants</string>
+    <!--  -->
+
+
+    <!-- ======================= -->
+    <!-- L\'eau de Refroidissement Data Entry (some re-use from above) -->
+    <!-- ======================= -->
+
+    <string name="coolingInputActivity">Param&#233;tres de L\'eau de Refroidissement</string>
+
+    <!--  -->
+    <string name="criteriaLabel">Crit&#233;res</string>
+    <string name="circulationPrompt">Circulation</string>
+    <string name="circulationHint">circulation</string>
+    <string name="circulationUnit">m&#179;/hr</string>
+    <string name="deltaTPrompt">∆T</string>
+    <string name="deltaTHint">∆T</string>
+    <string name="deltaTUnit">&#176;C</string>
+    <string name="sumpVolumePrompt">Puisard Volume</string>
+    <string name="sumpVolumeHint">Puisard Volume</string>
+    <string name="sumpVolumeUnit">m&#179;</string>
+    <string name="sysVolumePrompt">Sys Volume</string>
+    <string name="sysVolumeHint">Sys Volume</string>
+    <string name="sysVolumeUnit">m&#179;</string>
+    <string name="concFactorPrompt">Conc Facteur</string>
+    <string name="concFactorHint">Conc Facteur</string>
+    <string name="concFactorUnit"></string>
+
+    <!--  -->
+    <string name="makeupLabel">Maquillage Qualit&#233; de l\'eau</string>
+    <string name="totalHardnessPrompt">Duret&#233; Totale</string>
+    <string name="totalHardnessHint">Duret&#233; Totale</string>
+    <string name="totalHardnessUnit"></string>
+    <string name="chloridesPrompt">Chlorures</string>
+    <string name="chloridesHint">Chlorures</string>
+    <string name="chloridesUnit"></string>
+    <!--  -->
+    <string name="coolingDutyLabel">Duty/Fonctionnement</string>
+    <string name="hoursHint">heures/jour</string>
+    <string name="daysHint">jours/semaine</string>
+    <string name="weeksHint">semaines/ann&#233;e</string>
+
+    <!-- ======================= -->
+    <!-- L\'eau de Refroidissement Solids Product Estimates -->
+    <!-- ======================= -->
+    <string name="coolingSolidsResultsActivity">L\'eau de Refroidissement Estimates (Solids)</string>
+    <string name="costAnnumTitle">Coût/an</string>
+    <string name="costAnnumUnits">(£/an)</string>
+    <string name="costKgTitle">Coût/kg</string>
+    <string name="costKgUnits">(£/kg)</string>
+    <!--
+<string name="costYearTitle">Cost/Yr</string>
+<string name="costYearUnits">(£/yr)</string>
+-->
+    <string name="inhibitorTitle">Inhibitors</string>
+
+    <string name="hs2097Description">Tous organique tartre inhibiteur</string>
+    <string name="hs4390Description">Molybdate Phosphorate tartre/corrosion inhibiteur</string>
+    <string name="hs3990Description">Silicate / Phosphonate corrosion inhibiteur</string>
+    <!--  -->
+    <string name="biocidesTitle">Biocides</string>
+    <string name="cs4400Description">Biocide + Dispersant</string>
+
+    <string name="cs4802Description">Bronopol</string>
+    <string name="cs4490Description">DBNPA</string>
+    <string name="scg1Description">SDIC</string>
+    <string name="cschlorDescription">Cal Hypo Comprim&#233;</string>
+    <string name="c42tDescription">Bromecomprim&#233;s (brominateur)</string>
+
+    <!-- ======================= -->
+    <!-- Cooling Liquids Product Estimates -->
+    <!-- ======================= -->
+    <!-- some re-use from solids section -->
+    <string name="coolingLiquidsResultsActivity">Les Estimations de Refroidissement (Liquides)</string>
+    <string name="nOxBiocides01">Biocides</string>
+    <string name="nOxBiocides02">Non comburant</string>
+    <string name="doseRate">D&#233;bit de dose</string>
+    <string name="doseRateUnits">mg/L en systeme</string>
+    <string name="doseRateAnnum01">Litres/Ann&#233;e</string>
+    <string name="doseRateAnnum02">Estimation</string>
+    <string name="minDoseTitle">dose minimale</string>
+    <string name="minDoseUnits">ppm</string>
+    <string name="oxBiocides01">Biocides</string>
+    <string name="oxBiocides02">Oxidising</string>
+    <string name="oxHdr01">Minimum free</string>
+    <string name="oxHdr02">Halogen</string>
+    <string name="halogenDose">1&#8211;3 ppm</string>
+    <string name="oxDescription">Comme l\'exige L8</string>
+    
+
+    <string name="h207Description">Tartre inhibiteur</string>
+    <string name="h2073Description">Tartre inhibiteur</string>
+    <string name="h280Description">Tartre/corrosion inhibiteur</string>
+    <string name="h2805Description">Tartre/corrosion inhibiteur</string>
+    <string name="h390Description">Corrosion inhibiteur</string>
+    <string name="h3905Description">Corrosion inhibiteur</string>
+    <string name="h391Description">Corrosion inhibiteur</string>
+    <string name="h423Description">Tartre/corrosion inhibiteur</string>
+    <string name="h425Description">Corrosion inhibiteur</string>
+    <string name="h4255Description">Corrosion inhibiteur</string>
+    <string name="h535Description">Tartre/corrosion inhibiteur</string>
+    <string name="h874Description">Tartre inhibiteur</string>
+
+    <string name="c31Description">Isothiazalones</string>
+    <string name="c32Description">Isothiazalones</string>
+    <string name="c44Description">DBNPA</string>
+    <string name="c45Description">Glutaraldehyde</string>
+    <string name="c48Description">Bronopol BNPD</string>
+    <string name="c51Description">THPS</string>
+    <string name="c52Description">BAC Quat</string>
+    <string name="c54Description">Poly Quat</string>
+    <string name="c58Description">DDQ Quat</string>
+
+
+    <string name="c42tbDescription">BCDMH comprimé 20g</string>
+    <string name="ub30Description">Brome liquide</string>
+    <string name="chlor10Description">L\'hypochlorite de sodium</string>
+    <string name="b20Description">bromure de sodium</string>
+
+    <!-- ======================= -->
+    <!-- About Us -->
+    <!-- ======================= -->
+    <string name="aboutActivity">About Us</string>
+    <string name="aboutText">\n\n
+Water Treatment Products Ltd (WTP) a &#233;t&#233; fond&#233;e en 1999. WTP formule et fabrique des produits chimiques sp&#233;cialis&#233;s pour une large gamme d\'applications dans le traitement d\'eau.\n
+Nous fournissons nos produits de conditionnement  dans diff&#233;rents emballages (petit et grand), sous le nom et logo d&#233;sir&#233;s par nos clients (&#233;private label &#233;). Nous avons des clients  en Belgique, en France, en Tunisie, au Maroc  et dans toute l\'Europe.\n\n
+Nous sommes heureux de partager notre savoir-faire avec vous. Nous avons une usine de production moderne en Angleterre qui est id&#233;alement  situ&#233; pour la distribution facile.\n
+Nous respectons l\'environnement: l\'usine est enti&#233;rement cl&#233;tur&#233;e, ainsi que notre zone de chargement /d&#233;chargement. La capacit&#233; annuelle est 6000 tonnes de produits fabriqu&#233;s.
+\n\n
+• Plus de 300 formulations.\n
+• L&#233;usine est &#233;quip&#233;e pour effectuer le m&#233;lange des poudres et des liquides.\n
+• Une tr&#233;s large gamme de produits :  inhibiteurs d&#233;entartrage et nettoyants pour des syst&#233;mes &#233; membrane (osmose inverse, nano,ultrafiltration), biocides, produits pour les syst&#233;mes ferm&#233;s, produits de nettoyage, produits antitartre et anticorrosion, , et une vari&#233;t&#233;  de produits pour les chaudi&#233;res, tours de refroidissement, les piscines, l\'eau potable, etc.\n
+• Sur demande: des produits sp&#233;ciaux selon des sp&#233;cifications strictement d&#233;finies.\n
+Du personnel qualifi&#233; pour s&#233;occuper des produits dangereux  et des documents d&#233;exportation, selon les r&#233;gles d&#233;ADR et d&#233;IMDG (nous employons des chimistes).\n
+• ISO 9001 et 14001.\n
+• Des livraisons rapides vous permettent des &#233;conomies int&#233;ressantes sur votre stockage.\n
+Assistance technique en France , en Belgique, en Tunisie, au Maroc et en Europe.\n
+•  Emballage de 250 ml jusqu&#233;&#233; des conteneurs de 1 m3.\n
+• Une confidentialit&#233; garantie &#233; 100%  concernant toutes les informations que nous avons re&#233;ues de la part de nos clients.
+Tous les produits sont livr&#233;s avec  &#233;tiquetage, fiches techniques et fiches de s&#233;curit&#233; sous le nom /la marque du client.\n
+• Les num&#233;ros de lot et les &#233;chantillons sont conserv&#233;s pendant deux ans.\n
+\n</string>
+
+    <!-- ======================= -->
+    <!-- Help -->
+    <!-- ======================= -->
+
+    <string name="helpActivity">Aide</string>
+    <string name="helpIntroTitle">Introduction</string>
+    
+    <string name="helpIntro">Cette application fournit un ensemble de calculatrices pour estimer la quantit&#233; de produits n&#233;cessaires pour aborder le traitement de
+chaudi&#233;re et L\'eau de Refroidissement Systems. \n
+L\'application et les calculatrices sont offerts de bonne foi &#233; titre indicatif; param&#233;tres du site peuvent changer et les d&#233;tails ont gagn&#233; lors de l\'enqu&#233;te
+&#233;tape n\'est pas toujours exacte.
+WTP Ltd et les d&#233;veloppeurs offrent l\'application de bonne foi et sans garantie; son but est d\'orientation g&#233;n&#233;rale de possible
+l\'utilisation des produits chimiques seulement.
+\n\n
+Plus d\'informations sur les diff&#233;rents &#233;crans est fourni ci-dessous&#8230; :\n</string>
+    
+    <string name="helpGeneralTitle">G&#233;n&#233;ral</string>
+        <string name="helpGeneral">
+Pour revenir aux écrans de données de produits, sélectionnez le type de système et le produit 
+         (Chaudière ou système de refroidissement, solides ou liquides). \n 
+         Pour des informations générales sur le CAP, appuyez sur le bouton "About Us". \n
+         Pour plus d\'informations contacter (téléphone, e-mails, site web, localisation), appuyez sur le "Contactez-nous" bouton \n
+        </string>
+    
+    <string name="helpBoilerTitle">Estimates de Chaudi&#233;re &#233; Vapeur Produits</string>
+    <string name="helpBoiler">        Il s\'agit d\'un ensemble d\'&#233;crans o&#233; vous pouvez entrer les param&#233;tres de votre syst&#233;me, puis d\'estimer la quantit&#233; 
+        de produits de WTP associ&#233;s que vous auriez besoin,
+sur la base des donn&#233;es entr&#233;es.
+\n\n
+Sur le premier &#233;cran, saisissez les donn&#233;es pertinentes pour votre syst&#233;me, puis appuyez sur l\'ic&#233;ne "calculer" sur la barre du haut (&#233; droite).
+Ce sera ensuite afficher un r&#233;sum&#233; des estimations du produit.
+\n\n
+Notez qu\'il existe un grand nombre de champs de saisie, de sorte que le moyen le plus simple d\'entrer des donn&#233;es est d\'utiliser le bouton "Suivant" au-dessus du clavier 
+- Cela permet de passer &#233; la prochaine
+champ sans avoir &#233; masquer le clavier manuellement d&#233;filer vers le champ suivant.
+Si elle est valide, les donn&#233;es sont enregistr&#233;es et restaur&#233;es lorsque vous ex&#233;cutez l\'application &#233; nouveau (permet d\'&#233;conomiser beaucoup de frappe).
+\n\n
+Si vous allez &#233; la peine de la saisie des donn&#233;es, vous avez probablement besoin de faire quelque chose avec elle! Pour aider &#233; cet &#233;gard, l\'ic&#233;ne "Email" r&#233;sumera
+les entr&#233;es et les estimations dans un e-mail que vous pouvez modifier et envoyer &#233; n\'importe quelle adresse e-mail. </string>
+
+    <string name="helpCoolingTitle">Estimates de L\'eau de Refroidissement Produits</string>
+    <string name="helpCooling">
+        Il s\'agit d\'un ensemble d\'&#233;crans qui est essentiellement la m&#233;me que les &#233;crans chaudi&#233;re d\'eau, mais pour l\'Eau efficacit&#233; 
+        des syst&#233;mes de Refroidissement
+\n\n
+Navigation et saisie de donn&#233;es sont similaires aux &#233;crans chaudi&#233;re d\'eau, et donn&#233;es sont &#233;galement restaur&#233;es &#233; 
+partir de l\'utilisation pr&#233;c&#233;dente et e-mail peuvent &#233;tre envoy&#233;s si vous le souhaitez.
+</string>
+   
+    <string name="helpAboutTitle">Qui Sommes-Nous</string>
+    <string name="helpAbout">Cet &#233;cran offre une introduction aux Water Treatment Products, Inc.</string>
+    
+    <string name="helpContactTitle">Contactez-Nous</string>
+    <string name="helpContact">Cet &#233;cran offre une vari&#233;t&#233; d\'informations de contact, y compris:
+\n\n
+- web site\n 
+- num&#233;ros de t&#233;l&#233;phone et de t&#233;l&#233;copieur\n
+- adresses divers d\'e-mail\n
+- Adresse du si&#233;ge social\n
+\n
+O&#233; support&#233; par le dispositif, vous pouvez toucher le champ appropri&#233; pour activer ce mode de communication, tels que le lancement du navigateur sur le site web,
+appelant le num&#233;ro de t&#233;l&#233;phone, e-mail ou l\'ouverture d\'une montrant une carte de l\'emplacement du bureau.</string>
+    
+    <string name="helpCopyrightTitle">Droit d\'Auteur</string>
+    <string name="helpCopyright">        \n
+Droit d\'Auteur&#169; 2013, Water Treatment Products Incorporated and Nateemma LLC\n</string>
+
+    <!-- ======================= -->
+    <!-- Contact Us -->
+    <!-- ======================= -->
+
+    <string name="contactActivity">Contactez-Nous</string>
+    <string name="contactWebsiteTitle">Web Site</string>
+    <string name="contactWebsite">http://watertreatmentproducts.co.uk</string>
+    <string name="contactNumbersTitle">Nombres</string>
+    <string name="contactTelLabel">T&#233;l&#233;phone:</string>
+    <string name="contactTel">01495&#8211;792&#8211;790</string>
+    <string name="contactFaxLabel">FAX:</string>
+    <string name="contactFax">01495&#8211;792&#8211;090</string>
+    <string name="contactEmailsTitle">Email</string>
+    <string name="emailSalesLabel">Information de Vente:</string>
+    <string name="emailSales">sales@watertreatmentproducts.co.uk</string>
+    <string name="emailHelpLabel">Technical Support:</string>
+    <string name="emailHelp">help@watertreatmentproducts.co.uk</string>
+    <string name="emailInfoLabel">Informations G&#233;n&#233;rales:</string>
+    <string name="emailInfo">info@watertreatmentproducts.co.uk</string>
+    <string name="emailDistributorLabel">Opportunit&#233;s de Distribution:&#xA0;&#xA0;</string>
+    <string name="emailDistributor">distributor@watertreatmentproducts.co.uk</string>
+    <string name="emailLeisureLabel">Soutien de Produits Chimiques:</string>
+    <string name="emailLeisure">leisure@watertreatmentproducts.co.uk</string>
+    <string name="emailMediaLabel">Contact Presse:</string>
+    <string name="emailMedia">media@watertreatmentproducts.co.uk</string>
+    <string name="contactOfficeTitle">Adresse des Bureaux</string>
+    <string name="contactOffice">Unit 1, Gilchrist Thomas Industrial Estate, \nBlaenavon, Torfaen NP4 9RL, UK</string>
+
+</resources>

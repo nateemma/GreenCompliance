@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ENGLISH -->
+    
+    <string name="app_name">Green Compliance Estimation Tools</string>
+    <string name="action_settings">Settings</string>
+    <string name="appVersion">v1.2.0</string>
+
+    <!-- ======================= -->
+    <!-- Main Screen -->
+    <!-- ======================= -->
+    <string name="boilerWaterButtonText">Steam Boiler Product Estimates</string>
+    <string name="coolingWaterButtonText">Cooling Water Product Estimates</string>
+    <string name="boilerLabel">Steam Boiler</string>
+    <string name="coolingLabel">Cooling System</string>
+    <string name="solidLabel">Solid Chemicals</string>
+    <string name="liquidLabel">Liquid Chemicals</string>
+    <string name="helpLabel">Help</string>
+    <string name="aboutUsLabel">About Us</string>
+    <string name="contactUsLabel">Contact Us</string>
+    <string name="space"></string>
+
+    <!-- ======================= -->
+    <!-- Steam Boiler Data Entry -->
+    <!-- ======================= -->
+    <string name="action_estimate">Estimate</string>
+    <string name="boilerInputActivity">Steam Boiler Parameters</string>
+    <string name="siteNameLabel">Site Name</string>
+    <string name="sitePrompt">Name: </string>
+    <string name="siteHint">Enter site name</string>
+    <string name="inputError">Please enter all data</string>
+    
+    <!--  -->
+    <string name="boilerDutyLabel">Boiler Duty</string>
+    <string name="summerTitle">Summer</string>
+    <string name="winterTitle">Winter</string>
+    <string name="steamPrompt">Steam (lb/hr)</string>
+    <string name="steamSumHint">Summer steam</string>
+    <string name="steamWinHint">Winter steam</string>
+    <string name="hoursPrompt">Hours/Day</string>
+    <string name="hoursSumHint">Summer hours</string>
+    <string name="hoursWinHint">Winter hours</string>
+    <string name="daysPrompt">Days/Week</string>
+    <string name="daysSumHint">Summer days</string>
+    <string name="daysWinHint">Winter days</string>
+    <string name="weeksPrompt">Weeks/Year</string>
+    <string name="weeksSumHint">Summer weeks</string>
+    <string name="weeksWinHint">Winter weeks</string>
+    <!--  -->
+    <string name="feedWaterLabel">Feed Water</string>
+    <string name="TDSPrompt">TDS</string>
+    <string name="TDSHint">TDS</string>
+    <string name="TDSUnit">ppm</string>
+    <string name="MAlkPrompt">M Alk</string>
+    <string name="MAlkHint">M Alk</string>
+    <string name="MAlkUnit">ppm</string>
+    <string name="pHPrompt">pH</string>
+    <string name="pHHint">pH</string>
+    <string name="pHUnit"></string>
+    <string name="CaHardnessPrompt">Ca Hardness</string>
+    <string name="CaHardnessHint">Ca Hardness</string>
+    <string name="CaHardnessUnit">ppm</string>
+    <string name="tempPrompt">Temperature</string>
+    <string name="tempHint">Temperature</string>
+    <string name="tempUnit">&#176;C</string>
+
+    <!--  -->
+    <string name="boilerDetailsLabel">Boiler Details</string>
+    <string name="maxTDSPrompt">Max TDS</string>
+    <string name="maxTDSHint">Max TDS</string>
+    <string name="maxTDSUnit">ppm</string>
+    <string name="minSulphitePrompt">Min Sulphite Reserve</string>
+    <string name="minSulphiteHint">min Sulphite reserve</string>
+    <string name="minSulphiteUnit">ppm</string>
+    <string name="minCausticPrompt">Min Caustic Alkalinity</string>
+    <string name="minCausticHint">Min Caustic Alkalinity</string>
+    <string name="minCausticUnit"></string>
+
+    <!-- ======================= -->
+    <!-- Steam Boiler Solids Product Estimates -->
+    <!-- ======================= -->
+    <string name="boilerSolidsResultsActivity">Steam Boiler Estimates (Solids)</string>
+    <string name="action_email">Email</string>
+    <string name="productTitle">Product</string>
+    <string name="dosageTitle">Dosage</string>
+    <string name="dosageUnits">(g/m&#179;)</string>
+    <string name="usageTitle">Usage</string>
+    <string name="usageUnits">(kg/yr)</string>
+    <string name="ss1294Title">GC SS1294</string>
+    <string name="ss1294Description">Tannin based oxygen scavenger</string>
+    <string name="ss1295Title">GC SS1295</string>
+    <string name="ss1295Description">All in One - Sulphite</string>
+    <string name="ss1350Title">GC SS1350</string>
+    <string name="ss1350Description">All in One - Sulphite, no caustic</string>
+    <string name="ss1095Title">GC SS1095</string>
+    <string name="ss1095Description">Sodium Sulphite</string>
+    <string name="ss1995Title">GC SS1995</string>
+    <string name="ss1995Description">Alkalinity Builder</string>
+    <string name="ss2295Title">GC SS2295</string>
+    <string name="ss2295Description">Phosphate/Polymer</string>
+    <string name="ss8985Title">GC SS8985</string>
+    <string name="ss8985Description">Amines</string>
+
+    <!-- ======================= -->
+    <!-- Steam Boiler Liquids Product Estimates -->
+    <!-- ======================= -->
+    <string name="boilerLiquidsResultsActivity">Steam Boiler Estimates (Liquids)</string>
+    <string name="s5Title">GC S5</string>
+    <string name="s5Description">17% as Sodium bisulphite/catalysed</string>
+    <string name="s10Title">GC S10</string>
+    <string name="s10Description">35% as Sodium bisulphite/catalysed</string>
+    <string name="s123Title">GC S123</string>
+    <string name="s123Description">All in One Low Sulphite</string>
+    <string name="s125Title">GC S125</string>
+    <string name="s125Description">All in One High Sulphite</string>
+    <string name="s26Title">GC S26</string>
+    <string name="s26Description">25% tannin/caustic</string>
+    <string name="s28Title">GC S28</string>
+    <string name="s28Description">25% tannin</string>
+    <string name="s19Title">GC S19</string>
+    <string name="s19Description">Alkalinity Builder</string>
+    <string name="s456Title">GC S456</string>
+    <string name="s456Description">Polymer blend</string>
+    <string name="s124Title">GC S124</string>
+    <string name="s124Description">All in one Tannin Product</string>
+    <string name="s22Title">GC S22</string>
+    <string name="s22Description">Phosphate/Polymer</string>
+    <string name="s23Title">GC S23</string>
+    <string name="s23Description">Phosphate/Polymer/Caustic</string>
+    <string name="s88Title">GC S88</string>
+    <string name="s88Description">Morpholine/Cyclohex</string>
+    <string name="s95Title">GC S95</string>
+    <string name="s95Description">Filming and neutralising amines</string>
+    <!--  -->
+
+
+    <!-- ======================= -->
+    <!-- Cooling Water Data Entry (some re-use from above) -->
+    <!-- ======================= -->
+
+    <string name="coolingInputActivity">Cooling Water Parameters</string>
+
+    <!--  -->
+    <string name="criteriaLabel">Criteria</string>
+    <string name="circulationPrompt">Circulation</string>
+    <string name="circulationHint">circulation</string>
+    <string name="circulationUnit">m&#179;/hr</string>
+    <string name="deltaTPrompt">∆T</string>
+    <string name="deltaTHint">∆T</string>
+    <string name="deltaTUnit">&#176;C</string>
+    <string name="sumpVolumePrompt">Sump Volume</string>
+    <string name="sumpVolumeHint">Sump Volume</string>
+    <string name="sumpVolumeUnit">m&#179;</string>
+    <string name="sysVolumePrompt">Sys Volume</string>
+    <string name="sysVolumeHint">Sys Volume</string>
+    <string name="sysVolumeUnit">m&#179;</string>
+    <string name="concFactorPrompt">Conc Factor</string>
+    <string name="concFactorHint">Conc Factor</string>
+    <string name="concFactorUnit"></string>
+
+    <!--  -->
+    <string name="makeupLabel">Makeup Water Quality</string>
+    <string name="totalHardnessPrompt">Total Hardness</string>
+    <string name="totalHardnessHint">Total Hardness</string>
+    <string name="totalHardnessUnit"></string>
+    <string name="chloridesPrompt">Chlorides</string>
+    <string name="chloridesHint">Chlorides</string>
+    <string name="chloridesUnit"></string>
+    <!--  -->
+    <string name="coolingDutyLabel">Duty/Operation</string>
+    <string name="hoursHint">hours/day</string>
+    <string name="daysHint">days/week</string>
+    <string name="weeksHint">weeks/year</string>
+
+    <!-- ======================= -->
+    <!-- Cooling Water Solids Product Estimates -->
+    <!-- ======================= -->
+    <string name="coolingSolidsResultsActivity">Cooling Water Estimates (Solids)</string>
+    <string name="costKgTitle">Cost/kg</string>
+    <string name="costKgUnits">(£/kg)</string>
+    <string name="costAnnumTitle">Cost/Yr</string>
+    <string name="costAnnumUnits">(£/yr)</string>
+    <!--  -->
+    <string name="inhibitorTitle">Inhibitors</string>
+    <string name="hs2097Title">GC HS2097</string>
+    <string name="hs2097Description">All organic scale inhibitor</string>
+    <string name="hs4390Title">GC HS4390</string>
+    <string name="hs4390Description">Molybdate Phosphorate scale/corrosion inhibitor</string>
+    <string name="hs3990Title">GC HS3990</string>
+    <string name="hs3990Description">Silicate / Phosphonate corrosion inhibitor</string>
+    <!--  -->
+    <string name="biocidesTitle">Biocides</string>
+    <string name="cs4400Title">GC CS4400</string>
+    <string name="cs4400Description">Biocide + Dispersant</string>
+    <string name="cs4802Title">GC CS4802</string>
+    <string name="cs4802Description">Bronopol</string>
+    <string name="cs4490Title">GC CS4490</string>
+    <string name="cs4490Description">DBNPA</string>
+    <string name="scg1Title">GC SCG1</string>
+    <string name="scg1Description">SDIC</string>
+    <string name="cschlorTitle">GC CS Chlor</string>
+    <string name="cschlorDescription">Cal Hypo Tablet</string>
+    <string name="c42tTitle">GC C42T</string>
+    <string name="c42tDescription">Bromine tablets (brominator)</string>
+
+    <!-- ======================= -->
+    <!-- Cooling Liquids Product Estimates -->
+    <!-- ======================= -->
+    <!-- some re-use from solids section -->
+    <string name="coolingLiquidsResultsActivity">Cooling Estimates (Liquids)</string>
+    <string name="nOxBiocides01">Biocides</string>
+    <string name="nOxBiocides02">Non-Oxidising</string>
+    <string name="doseRate">Dose Rate</string>
+    <string name="doseRateUnits">mg/L in system</string>
+    <string name="doseRateAnnum01">Litres/Annum</string>
+    <string name="doseRateAnnum02">Estimated</string>
+    <string name="minDoseTitle">Minimum Dose</string>
+    <string name="minDoseUnits">ppm</string>
+    <string name="oxBiocides01">Biocides</string>
+    <string name="oxBiocides02">Oxidising</string>
+    <string name="oxHdr01">Minimum free</string>
+    <string name="oxHdr02">Halogen</string>
+    <string name="halogenDose">1&#8211;3 ppm</string>
+    <string name="oxDescription">As required by L8</string>
+    
+    <string name="h207Title">GC H207</string>
+    <string name="h207Description">Scale inhibitor</string>
+    <string name="h2073Title">GC H2073</string>
+    <string name="h2073Description">Scale inhibitor</string>
+    <string name="h280Title">GC H280</string>
+    <string name="h280Description">Scale/corrosion inhibitor</string>
+    <string name="h2805Title">GC H2805</string>
+    <string name="h2805Description">Scale/corrosion inhibitor</string>
+    <string name="h390Title">GC H390</string>
+    <string name="h390Description">Corrosion inhibitor</string>
+    <string name="h3905Title">GC H3095</string>
+    <string name="h3905Description">Corrosion inhibitor</string>
+    <string name="h391Title">GC H391</string>
+    <string name="h391Description">Corrosion inhibitor</string>
+    <string name="h423Title">GC H423</string>
+    <string name="h423Description">Scale/corrosion inhibitor</string>
+    <string name="h425Title">GC H425</string>
+    <string name="h425Description">Corrosion inhibitor</string>
+    <string name="h4255Title">GC H4255</string>
+    <string name="h4255Description">Corrosion inhibitor</string>
+    <string name="h535Title">GC H535</string>
+    <string name="h535Description">Scale/corrosion inhibitor</string>
+    <string name="h874Title">GC H874</string>
+    <string name="h874Description">Scale inhibitor</string>
+ 
+    
+    <string name="c31Title">GC C31 IsoT</string>
+    <string name="c31Description">Isothiazalones</string>
+    <string name="c32Title">GC C32 IsoT</string>
+    <string name="c32Description">Isothiazalones</string>
+    <string name="c44Title">GC C44 DBNPA</string>
+    <string name="c44Description">DBNPA</string>
+    <string name="c45Title">GC C45 Glut</string>
+    <string name="c45Description">Glutaraldehyde</string>
+    <string name="c48Title">GC C48 BNPD</string>
+    <string name="c48Description">Bronopol BNPD</string>
+    <string name="c51Title">GC C51 THPS</string>
+    <string name="c51Description">THPS</string>
+    <string name="c52Title">GC C52 Quat</string>
+    <string name="c52Description">BAC Quat</string>
+    <string name="c54Title">GC C54 Poly Quat</string>
+    <string name="c54Description">Poly Quat</string>
+    <string name="c58Title">GC C58 DDMQ</string>
+    <string name="c58Description">DDQ Quat</string>
+    
+    <string name="c42tbTitle">GC C42T BCDMH</string>
+    <string name="c42tbDescription">BCDMH 20g tablet</string>
+    <string name="ub30Title">GC UB30 Bromine</string>
+    <string name="ub30Description">Liquid bromine</string>
+    <string name="chlor10Title">GC Chlor 10 NaOCl</string>
+    <string name="chlor10Description">Sodium hypochlorite</string>
+    <string name="b20Title">GC B20 Bromide</string>
+    <string name="b20Description">Sodium Bromide</string>
+
+    <!-- ======================= -->
+    <!-- About Us -->
+    <!-- ======================= -->
+    <string name="aboutActivity">About Us</string>
+    <string name="aboutText">\n\n
+        Green Compliance Water Hygiene and Treatment is a complete water treatment, water hygiene and air solutions company, dedicated to providing customers
+        with innovative environmental solutions. We specialise in ensuring that we understand our customers’ requirements and how to fulfil them. We do this
+        by providing a bespoke package to give safe water systems, peace of mind and above all complete compliance.
+        \n\n
+    </string>
+
+    <!-- ======================= -->
+    <!-- Help -->
+    <!-- ======================= -->
+
+    <string name="helpActivity">Help</string>
+    <string name="helpIntroTitle">Introduction</string>
+    <string name="helpIntro">This app provides a set of calculators for estimating the amount of products needed for addressing the treatment of 
+Boiler and Cooling Water Systems. \n
+The app and calculators are offered in good faith for guidance only; site parameters can change and details gained at survey 
+stage may not always be accurate. 
+Green Compliance Water Division Ltd. and the developers offer the app in good faith and without warrantee; its purpose is for general guidance of possible
+chemicals usage only.
+\n\n
+More information on the various screens is provided below&#8230; \n</string>
+
+    <string name="helpGeneralTitle">General</string>
+    <string name="helpGeneral">To go to the product data screens, select the type of system and product 
+        (Boiler or Cooling System, Solid or Liquid Products). \n
+        For general information on Green Compliance, touch the "About Us" button.\n
+        For Contact information (telephone, emails, web site, location), touch the "Contact Us" button\n
+        </string>
+        
+    <string name="helpBoilerTitle">Steam Boiler Product Estimates</string>
+    <string name="helpBoiler">        This is a set of screens where you can enter parameters for your system and then estimate the amount of associated GC products that you would need, 
+based on the data entered. 
+\n\n
+On the first screen, enter the relevant data for your system, then touch the "calculate" icon on the top bar (on the right). 
+This will then display a summary of the product estimates.
+\n\n
+Note that there a lot of input fields, so the easiest way to enter data is to use the "Next" button above the keyboard - this will move to the next 
+field without having to dismiss the keyboard and manually scroll to the next field.
+If valid, the data is saved and restored when you run the app again (saves a lot of typing). 
+\n\n
+If you are going to the trouble of entering the data, you probably need to do something with it! To help in this regard, the "Email" icon will summarise 
+the inputs and estimates in an email which you can edit and send to any email address.</string>
+
+    <string name="helpCoolingTitle">Cooling Water Product Estimates</string>
+    <string name="helpCooling">This is a set of screens that is essentially the same as the Boiler Water screens, but for Cooling Water Systems
+\n\n
+Navigation and data entry are similar to the Boiler Water screens, and data is also restored from previous usage and email can be sent if desired.</string>
+    
+    <string name="helpAboutTitle">About Us</string>
+    <string name="helpAbout">This screen provides an introduction to Green Compliance Water Division Ltd.</string>
+    
+    <string name="helpContactTitle">Contact Us</string>
+    <string name="helpContact">This screen provides a variety of contact information, including:
+\n\n
+- web site\n
+- telephone and FAX numbers\n
+- various email addresses\n
+- office address\n
+\n
+Where supported by the device, you can touch the appropriate field to activate that method of communication, such as launching the browser at the web site, 
+calling the contact number, initiating an email or showing a map of the office location.</string>
+    
+    <string name="helpCopyrightTitle">Copyright</string>
+    <string name="helpCopyright">        \n
+Copyright &#169; 2016, Green Compliance Water Division Ltd. and Nateemma LLC\n</string>
+
+    <!-- ======================= -->
+    <!-- Contact Us -->
+    <!-- ======================= -->
+
+    <string name="contactActivity">Contact Us</string>
+    <string name="contactWebsiteTitle">Web Site</string>
+    <string name="contactWebsite">http://www.greencompliance.com/</string>
+    <string name="contactNumbersTitle">Numbers</string>
+    <string name="contactTelLabel">Telephone:</string>
+    <string name="contactTel">033&#8211;022&#8211;31313</string>
+    <string name="contactFaxLabel"></string>
+    <string name="contactFax"></string>
+
+    <string name="contactEmailsTitle">Email</string>
+    <string name="emailSalesLabel">Sales Information:</string>
+    <string name="emailSales">sales@watertreatmentproducts.co.uk</string>
+    <string name="emailHelpLabel">Technical Support:</string>
+    <string name="emailHelp">water@greencompliance.com</string>
+    <string name="emailInfoLabel">General Information:</string>
+    <string name="emailInfo">water@greencompliance.com</string>
+    <string name="emailDistributorLabel">Distributor Opportunities:&#xA0;&#xA0;</string>
+    <string name="emailDistributor">water@greencompliance.com</string>
+    <string name="emailLeisureLabel">Pool Chemicals Support:</string>
+    <string name="emailLeisure">water@greencompliance.com</string>
+    <string name="emailMediaLabel">Press Inquiries:</string>
+    <string name="emailMedia">water@greencompliance.com</string>
+
+    <string name="contactOfficeTitle">Office Address</string>
+    <string name="contactOffice">Unit 5,\nWest Court,\nBuntsford Hill Business Park,\nBuntsford Park Road,\nBromsgrove,\nWorcestershire,\nB60 3DX</string>
+
+</resources>

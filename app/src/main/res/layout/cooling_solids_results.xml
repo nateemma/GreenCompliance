@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:scrollbars="none" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:weightSum="1.0">
+
+        <!-- ===================================================== -->
+        <!-- INHIBITORS HEADER -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="12dip"
+            android:background="@color/gc_light_green"
+            android:padding="0dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="@string/inhibitorTitle"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:text="@string/dosageTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:text="@string/usageTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="12dip"
+            android:background="@color/gc_light_green"
+            android:padding="0dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:text="@string/dosageUnits"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:text="@string/usageUnits"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+        </TableRow>
+
+        <!-- ===================================================== -->
+        <!-- PRODUCT DATA -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="28dip"
+            android:padding="8dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="@string/hs2097Title"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outHS2097Dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outHS2097Usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/hs2097Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="28dip"
+            android:padding="8dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="@string/hs4390Title"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outHS4390Dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outHS4390Usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/hs4390Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="28dip"
+            android:padding="8dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="@string/hs3990Title"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outHS3990Dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outHS3990Usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/hs3990Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <!-- ===================================================== -->
+        <!-- BIOCIDES HEADER -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="12dip"
+            android:background="@color/gc_light_green"
+            android:padding="0dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="@string/biocidesTitle"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:text="@string/dosageTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:text="@string/usageTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="12dip"
+            android:background="@color/gc_light_green"
+            android:padding="0dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:text="@string/dosageUnits"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:text="@string/usageUnits"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+        </TableRow>
+
+        <!-- ===================================================== -->
+        <!-- BIOCIDES DATA -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="28dip"
+            android:padding="8dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="@string/cs4400Title"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outCS4400Dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outCS4400Usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/cs4400Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="28dip"
+            android:padding="8dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="@string/cs4802Title"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outCS4802Dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outCS4802Usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/cs4802Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="28dip"
+            android:padding="8dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="@string/cs4490Title"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outCS4490Dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outCS4490Usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/cs4490Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="28dip"
+            android:padding="8dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="@string/scg1Title"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outSCG1Dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outSCG1Usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/scg1Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="28dip"
+            android:padding="8dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="@string/cschlorTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outCSChlorDosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outCSChlorUsage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/cschlorDescription"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="28dip"
+            android:padding="8dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="@string/c42tTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outC42TDosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outC42TUsage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="right"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/c42tDescription"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

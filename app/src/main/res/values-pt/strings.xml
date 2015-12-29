@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- PORTUGUESE -->
+
+    <string name="app_name">WTP Ferramentas Estimação</string>
+    <string name="action_settings">Configurações</string>
+
+    <!-- ======================= -->
+    <!-- Main Screen -->
+    <!-- ======================= -->
+    <string name="boilerWaterButtonText">Estimativas Caldeira Produto</string>
+    <string name="coolingWaterButtonText">Estimativas de refrigeração de água Produto</string>
+    <string name="boilerLabel">Caldeira</string>
+    <string name="coolingLabel">Sistema de Arrefecimento</string>
+    <string name="solidLabel">Produtos químicos sólidos</string>
+    <string name="liquidLabel">Produtos químicos líquidos</string>
+    <string name="helpLabel">Ajudar</string>
+    <string name="aboutUsLabel">Quem Somos</string>
+    <string name="contactUsLabel">Fale Conosco</string>
+    <string name="space"></string>
+
+    <!-- ======================= -->
+    <!-- Steam Boiler Data Entry -->
+    <!-- ======================= -->
+    <string name="action_estimate">Estimativa</string>
+    <string name="boilerInputActivity">Parâmetros caldeira de vapor</string>
+    <string name="siteNameLabel">Nome do site</string>
+    <string name="sitePrompt">Nome:</string>
+    <string name="siteHint">Digite o nome do site</string>
+    <string name="inputError">Por favor, indique todos os dados</string>
+    
+    <!--  -->
+    <string name="boilerDutyLabel">Caldeira Dever</string>
+    <string name="summerTitle">Verão</string>
+    <string name="winterTitle">Inverno</string>
+    <string name="steamPrompt">Vapor (lb / hr)</string>
+    <string name="steamSumHint">Vapor Verão</string>
+    <string name="steamWinHint">Vapor de Inverno</string>
+    <string name="hoursPrompt">Horas / dia</string>
+    <string name="hoursSumHint">Horário de verão</string>
+    <string name="hoursWinHint">Horário de Inverno</string>
+    <string name="daysPrompt">Dias / Semana</string>
+    <string name="daysSumHint">Os dias de Verão</string>
+    <string name="daysWinHint">Dias de inverno</string>
+    <string name="weeksPrompt">Semanas / ano</string>
+    <string name="weeksSumHint">Semana de verão</string>
+    <string name="weeksWinHint">Semana de Inverno</string>
+    <!--  -->
+    <string name="feedWaterLabel">Alimente Água</string>
+    <string name="TDSPrompt">TDS</string>
+    <string name="TDSHint">TDS</string>
+    <string name="TDSUnit">ppm</string>
+    <string name="MAlkPrompt">M Alk</string>
+    <string name="MAlkHint">M Alk</string>
+    <string name="MAlkUnit">ppm</string>
+    <string name="pHPrompt">pH</string>
+    <string name="pHHint">pH</string>
+    <string name="pHUnit"></string>
+    <string name="CaHardnessPrompt">Ca Dureza</string>
+    <string name="CaHardnessHint">Ca Dureza</string>
+    <string name="CaHardnessUnit">ppm</string>
+    <string name="tempPrompt">Temperatura</string>
+    <string name="tempHint">Temperatura</string>
+    <string name="tempUnit">&#176;C</string>
+
+    <!--  -->
+    <string name="boilerDetailsLabel">Detalhes Caldeira</string>
+    <string name="maxTDSPrompt">Max TDS</string>
+    <string name="maxTDSHint">Max TDS</string>
+    <string name="maxTDSUnit">ppm</string>
+    <string name="minSulphitePrompt">Reserva min Sulphite</string>
+    <string name="minSulphiteHint">reserva min Sulphite</string>
+    <string name="minSulphiteUnit">ppm</string>
+    <string name="minCausticPrompt">Min cáustica Alcalinidade</string>
+    <string name="minCausticHint">Min cáustica Alcalinidade</string>
+    <string name="minCausticUnit"></string>
+
+    <!-- ======================= -->
+    <!-- Steam Boiler Solids Product Estimates -->
+    <!-- ======================= -->
+    <string name="boilerSolidsResultsActivity">Estimativas da caldeira de vapor (Sólidos)</string>
+    <string name="action_email">Email</string>
+    <string name="productTitle">Produto</string>
+    <string name="dosageTitle">Dosagem</string>
+    <string name="dosageUnits">(g/m&#179;)</string>
+    <string name="usageTitle">Uso</string>
+    <string name="usageUnits">(Kg / ano)</string>
+
+    <string name="ss1294Description">Eliminador de oxigénio à base de tanino</string>
+    <string name="ss1295Description">All in One - sulfito</string>
+    <string name="ss1350Description">All in One - sulfito, não cáustica</string>
+    <string name="ss1095Description">O sulfito de sódio</string>
+    <string name="ss1995Description">Alcalinidade Builder</string>
+    <string name="ss2295Description">Fosfato / Polímero</string>
+    <string name="ss8985Description">Amina</string>
+
+    <!-- ======================= -->
+    <!-- Steam Boiler Liquids Product Estimates -->
+    <!-- ======================= -->
+    <string name="boilerLiquidsResultsActivity">Estimativas da caldeira de vapor (líquidos)</string>
+
+    <string name="s5Description">17% de bissulfito de sódio / catalisada</string>
+    <string name="s10Description">35% de bissulfito de sódio / catalisada</string>
+    <string name="s123Description">All in One Low Sulphite</string>
+    <string name="s125Description">All in One alta Sulphite</string>
+    <string name="s26Description">25% de taninos / cáustica</string>
+    <string name="s28Description">25% de taninos</string>
+    <string name="s19Description">Alcalinidade Builder</string>
+    <string name="s456Description">Polymer mistura</string>
+    <string name="s124Description">Tudo em um Tanino produtos</string>
+    <string name="s22Description">Fosfato / Polímero</string>
+    <string name="s23Description">Fosfato / Polímero / cáustica</string>
+    <string name="s88Description">Morpholine / Cicloex</string>
+    <string name="s95Description">Filmagem e aminas neutralizantes</string>
+    <!--  -->
+
+
+    <!-- ======================= -->
+    <!-- Cooling Water Data Entry (some re-use from above) -->
+    <!-- ======================= -->
+
+    <string name="coolingInputActivity">Arrefecimento parâmetros da água</string>
+
+    <!--  -->
+    <string name="criteriaLabel">Critérios</string>
+    <string name="circulationPrompt">Circulação</string>
+    <string name="circulationHint">Circulação</string>
+    <string name="circulationUnit">m&#179;/hora</string>
+    <string name="deltaTPrompt">∆T</string>
+    <string name="deltaTHint">∆T</string>
+    <string name="deltaTUnit">&#176;C</string>
+    <string name="sumpVolumePrompt">Volume Cárter</string>
+    <string name="sumpVolumeHint">Volume Cárter</string>
+    <string name="sumpVolumeUnit">m&#179;</string>
+    <string name="sysVolumePrompt">Volume Sys</string>
+    <string name="sysVolumeHint">Volume Sys</string>
+    <string name="sysVolumeUnit">m&#179;</string>
+    <string name="concFactorPrompt">Conc Fator</string>
+    <string name="concFactorHint">Conc Fator</string>
+    <string name="concFactorUnit"></string>
+
+    <!--  -->
+    <string name="makeupLabel">Maquiagem de Qualidade da Água</string>
+    <string name="totalHardnessPrompt">Dureza total</string>
+    <string name="totalHardnessHint">Dureza total</string>
+    <string name="totalHardnessUnit"></string>
+    <string name="chloridesPrompt">Cloretos</string>
+    <string name="chloridesHint">Cloretos</string>
+    <string name="chloridesUnit"></string>
+    <!--  -->
+    <string name="coolingDutyLabel">Dever / Operação</string>
+    <string name="hoursHint">horas / dia</string>
+    <string name="daysHint">dias / semana</string>
+    <string name="weeksHint">semanas / ano</string>
+
+    <!-- ======================= -->
+    <!-- Cooling Water Solids Product Estimates -->
+    <!-- ======================= -->
+    <string name="coolingSolidsResultsActivity">Estimativas de refrigeração de água (sólidos)</string>
+    <string name="costKgTitle">Custo / kg</string>
+    <string name="costKgUnits">(£ / kg)</string>
+    <string name="costAnnumTitle">Custo / Yr</string>
+    <string name="costAnnumUnits">(£ / ano)</string>
+    <!--  -->
+    <string name="inhibitorTitle">Inibidores</string>
+
+    <string name="hs2097Description">Todos inibidor escala orgânica</string>
+    <string name="hs4390Description">Escala Molybdate fosforar / inibidor de corrosão</string>
+    <string name="hs3990Description">Silicato / fosfonato inibidor de corrosão</string>
+    <!--  -->
+    <string name="biocidesTitle">Biocidas</string>
+
+    <string name="cs4400Description">Biocide + Dispersante</string>
+    <string name="cs4802Description">Bronopol</string>
+    <string name="cs4490Description">DBNPA</string>
+    <string name="scg1Description">SDIC</string>
+    <string name="cschlorDescription">Cal Hypo Tablet</string>
+    <string name="c42tDescription">Comprimidos de bromo (brominator)</string>
+
+    <!-- ======================= -->
+    <!-- Cooling Liquids Product Estimates -->
+    <!-- ======================= -->
+    <!-- some re-use from solids section -->
+    <string name="coolingLiquidsResultsActivity">Estimativas de refrigeração (líquidos)</string>
+    <string name="nOxBiocides01">Biocidas</string>
+    <string name="nOxBiocides02">Não comburente</string>
+    <string name="doseRate">Taxa de Dose</string>
+    <string name="doseRateUnits">mg / L no sistema</string>
+    <string name="doseRateAnnum01">Litros / Annum</string>
+    <string name="doseRateAnnum02">Estimado</string>
+    <string name="minDoseTitle">Dose mínima</string>
+    <string name="minDoseUnits">ppm</string>
+    <string name="oxBiocides01">Biocidas</string>
+    <string name="oxBiocides02">Comburente</string>
+    <string name="oxHdr01">Mínimo livre</string>
+    <string name="oxHdr02">Halogênio</string>
+    <string name="halogenDose">1&#8211;3 ppm</string>
+    <string name="oxDescription">Conforme requerido pela L8</string>
+    
+
+    <string name="h207Description">Inibidor de incrustações</string>
+    <string name="h2073Description">Inibidor de incrustações</string>
+    <string name="h280Description">Escala / inibidor de corrosão</string>
+    <string name="h2805Description">Escala / inibidor de corrosão</string>
+    <string name="h390Description">Inibidor de corrosão</string>
+    <string name="h3905Description">Inibidor de corrosão</string>
+    <string name="h391Description">Inibidor de corrosão</string>
+    <string name="h423Description">Escala / inibidor de corrosão</string>
+    <string name="h425Description">Inibidor de corrosão</string>
+    <string name="h4255Description">Inibidor de corrosão</string>
+    <string name="h535Description">Escala / inibidor de corrosão</string>
+    <string name="h874Description">Inibidor de incrustações</string>
+
+    <string name="c31Description">Isothiazalones</string>
+    <string name="c32Description">Isothiazalones</string>
+    <string name="c44Description">DBNPA</string>
+    <string name="c45Description">Glutaraldehyde</string>
+    <string name="c48Description">Bronopol BNPD</string>
+    <string name="c51Description">THPS</string>
+    <string name="c52Description">BAC Quat</string>
+    <string name="c54Description">Poly Quat</string>
+    <string name="c58Description">DDQ Quat</string>
+
+
+    <string name="c42tbDescription">BCDMH 20g tablet</string>
+    <string name="ub30Description">Bromo líquido</string>
+    <string name="chlor10Description">Hipoclorito de sódio</string>
+    <string name="b20Description">Brometo de sódio</string>
+
+    <!-- ======================= -->
+    <!-- About Us -->
+    <!-- ======================= -->
+    <string name="aboutActivity">Quem Somos</string>
+    <string name="aboutText">\n\n
+Tratamento de Água Products Ltd, fundada em 1999, formular e fabricar produtos químicos especializados para uma ampla gama de empresas de tratamento de 
+água e aplicações. Se você precisa de produtos químicos para a água da caldeira, água de arrefecimento, osmose reversa, cloração ou desinfecção que são 
+especialistas em produzir soluções claras para suas necessidades de tratamento de água. \n \n Para manter os padrões de qualidade, temos o controle total 
+de todas as formulações químicas - a compra de matérias-primas de qualidade, a escolha da embalagem e métodos de entrega eficientes - garantindo que você 
+desfrutar os melhores produtos para atender às suas necessidades individuais. Os produtos são fabricados em nossa própria totalmente delimitadas, instalação 
+e moderna em South Wales - idealmente situado para fácil distribuição para o Reino Unido e os mercados no exterior. \n \n O que quer formulação, podemos 
+atender às suas necessidades. Temos mais de 200 experimentadas e testadas formulações disponíveis, então o que são as suas necessidades, teremos uma solução. 
+Tratamento de Água Produtos oferta: \n \n
+ • formulações exclusivas \n
+  • Uma gama completa de produtos químicos, pós e líquidos \n
+   • Kits de Teste de Água - Drop Test Kits e Dip Slides: Individual, engenheiros e químicos Kits específicos \n
+    • Chemicals Sólidos \n
+     • produtos químicos selo próprio \n
+     • Escolha de tamanhos de embalagem \n
+     • Os produtos fabricados em nossa própria planta \n
+      • ISO 9001 de qualidade garantida \n
+      • ISO 14001 normas ambientais \n
+       • Investors in People \n
+       • Totalmente compatível com toda a legislação \n
+        • CLP (GHS) MSDS \n
+        • CHIPS III e ADR \n
+        • Experiência no mercado de exportação \n
+         • No local DGSA e Químicos \n </string>
+
+    <!-- ======================= -->
+    <!-- Help -->
+    <!-- ======================= -->
+
+    <string name="helpActivity">Ajuda</string>
+    <string name="helpIntroTitle">Introdução</string>
+    <string name="helpIntro">
+Este aplicativo fornece um conjunto de calculadoras para estimar a quantidade de produtos necessários para abordar o tratamento da Caldeira e Sistemas 
+de Resfriamento de Água. \n O aplicativo e calculadoras são oferecidos de boa fé apenas para orientação; parâmetros do local pode mudar e detalhes 
+obtidos na fase pesquisa pode não ser sempre precisas. WTP Ltd e os desenvolvedores oferecer o aplicativo de boa fé e sem garantia, o seu objectivo é 
+para orientação geral de só é possível o uso de produtos químicos. \n \n 
+Mais informações sobre as várias telas é fornecida abaixo
+ &#8230;\n
+ </string>
+
+    <string name="helpGeneralTitle">Geral</string>
+        <string name="helpGeneral">
+            Para ir para as telas de dados do produto, selecione o tipo de sistema e produtos 
+         (Caldeira ou sistema de refrigeração, sólidos ou produtos líquidos). \n 
+         Para informações gerais sobre WTP, toque no botão "About Us". \n 
+         Para informações de contato (telefone, e-mails, web site, localização), toque no "Fale Conosco" botão \n
+        </string>
+    
+    <string name="helpBoilerTitle">Estimativas Caldeira Produto</string>
+    <string name="helpBoiler">
+Este é um conjunto de ecrãs onde pode inserir os parâmetros para seu sistema e, em seguida, estimar a quantidade de produtos WTP associados que você precisa, 
+com base nos dados inseridos. \n \n Na primeira tela, digite os dados relevantes para o seu sistema, em seguida, toque no ícone "calcular" na barra superior 
+(à direita). Este, então, exibir um resumo das estimativas do produto. \n \n Note que há um monte de campos de entrada, de modo que a maneira mais fácil de 
+inserir dados é usar o botão "Next" acima do teclado - o que irá passar para o próximo campo, sem ter que dispensar o teclado e manualmente se deslocar para 
+o próximo campo. Se válido, os dados são guardados e restaurados quando você executar o aplicativo novamente (poupa um monte de digitação). \n \n 
+
+Se você estiver indo para o trabalho de inserir os dados, você provavelmente terá que fazer algo com ele! Para ajudar nesse sentido, o ícone "E-mail" resumirá 
+as entradas e as estimativas em um e-mail que você pode editar e enviar para qualquer endereço de e-mail.
+</string>
+
+    <string name="helpCoolingTitle">Refrigeração Estimativas Água Produto</string>
+    <string name="helpCooling">
+Este é um conjunto de telas que é essencialmente o mesmo que as telas de caldeira de água, mas para sistemas de arrefecimento de água 
+\n \n 
+Navegação e entrada de dados são semelhantes às telas de caldeira de água, e os dados também é restaurado a partir de uso anterior e e-mail pode ser enviado, se desejar.
+</string>
+
+    <string name="helpAboutTitle">Quem Somos</string>
+    <string name="helpAbout">
+Esta tela fornece uma introdução ao Tratamento de Água Products, Inc.</string>
+
+    <string name="helpContactTitle">Fale Conosco</string>
+    <string name="helpContact">
+Esta tela fornece uma variedade de informações de contato, incluindo: \n \n
+ - site \n - telefone e de fax \n
+  - vários endereços de e-mail \n
+  - Centro de endereço \n \n
+Onde suportada pelo dispositivo, você pode tocar no campo apropriado para ativar esse método de comunicação, tais como o lançamento do navegador no site, 
+ligando para o número de contato, iniciar um e-mail ou mostrar um mapa da localização do escritório.
+   </string>
+
+    <string name="helpCopyrightTitle">Copyright</string>
+    <string name="helpCopyright">
+Copyright, 2013, Water Treatment Products Ltd. and Nateemma LLC
+</string>
+
+    <!-- ======================= -->
+    <!-- Contact Us -->
+    <!-- ======================= -->
+
+    <string name="contactActivity">Fale Conosco</string>
+
+    <string name="contactWebsiteTitle">Web Site</string>
+    <string name="contactWebsite">http://watertreatmentproducts.co.uk</string>
+
+    <string name="contactNumbersTitle">Números</string>
+    <string name="contactTelLabel">Telefone:</string>
+    <string name="contactTel">01495&#8211;792&#8211;790</string>
+    <string name="contactFaxLabel">FAX:</string>
+    <string name="contactFax">01495&#8211;792&#8211;090</string>
+
+    <string name="contactEmailsTitle">Email</string>
+    <string name="emailSalesLabel">Informações de vendas:</string>
+    <string name="emailSales">sales@watertreatmentproducts.co.uk</string>
+    <string name="emailHelpLabel">Suporte técnico:</string>
+    <string name="emailHelp">help@watertreatmentproducts.co.uk</string>
+    <string name="emailInfoLabel">Informações Gerais:</string>
+    <string name="emailInfo">info@watertreatmentproducts.co.uk</string>
+    <string name="emailDistributorLabel">Oportunidades Distribuidor:</string>
+    <string name="emailDistributor">distributor@watertreatmentproducts.co.uk</string>
+    <string name="emailLeisureLabel">Piscina Chemicals Suporte:</string>
+    <string name="emailLeisure">leisure@watertreatmentproducts.co.uk</string>
+    <string name="emailMediaLabel">Informações para a Imprensa:</string>
+    <string name="emailMedia">media@watertreatmentproducts.co.uk</string>
+
+    <string name="contactOfficeTitle">Endereço de escritório</string>
+    <string name="contactOffice">Unit 1, Gilchrist Thomas Industrial Estate, \nBlaenavon, Torfaen NP4 9RL, UK</string>
+
+</resources>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nateemma.greencompliance"
+    android:versionCode="5"
+    android:versionName="@string/appVersion" >
+    
+    <!-- Permissions for reading/saving files, making calls -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    
+    <uses-sdk
+    android:minSdkVersion="11"
+    android:targetSdkVersion="21" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <!-- The main Screen -->
+        <activity
+            android:name="com.nateemma.greencompliance.MainActivity"
+            android:label="@string/app_name"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--
+             <intent-filter>
+             <action android:name="com.nateemma.greencompliance.HOME" />
+             
+             <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
+             -->
+            
+            <!-- API Key for use of Maps -->
+            <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="8F:69:D9:18:64:7D:A0:75:2C:9B:D7:17:BF:97:71:17:62:63:FA:37" />
+            
+        </activity>
+        
+        <!-- The Splash screen Activity -->
+        <!--
+         <activity
+         android:name="com.nateemma.greencompliance.SplashActivity"
+         android:label="@string/app_name"
+         
+         >
+         <intent-filter>
+         <action android:name="android.intent.action.MAIN" />
+         
+         <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+         <intent-filter>
+         <action android:name="com.nateemma.greencompliance.SPLASH" />
+         
+         <category android:name="android.intent.category.DEFAULT" />
+         </intent-filter>
+         </activity>
+         -->
+        
+        
+        <!-- Steam Boiler Data Entry -->
+        <activity
+            android:name="com.nateemma.greencompliance.BoilerInputActivity"
+            android:label="@string/boilerInputActivity"
+            android:parentActivityName="com.nateemma.greencompliance.MainActivity"
+            
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+            
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.nateemma.greencompliance.MainActivity" />
+            
+            <intent-filter>
+                <action android:name="com.nateemma.greencompliance.BOILER_INPUT" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Steam Boiler Results -->
+        <!-- Solids -->
+        <activity
+            android:name="com.nateemma.greencompliance.BoilerSolidsResultsActivity"
+            android:label="@string/boilerSolidsResultsActivity"
+            android:parentActivityName="com.nateemma.greencompliance.BoilerInputActivity"
+            
+            >
+            
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.nateemma.greencompliance.BoilerInputActivity" />
+            
+            <intent-filter>
+                <action android:name="com.nateemma.greencompliance.BOILER_SOLIDS_RESULTS" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Liquids -->
+        <activity
+            android:name="com.nateemma.greencompliance.BoilerLiquidsResultsActivity"
+            android:label="@string/boilerLiquidsResultsActivity"
+            android:parentActivityName="com.nateemma.greencompliance.BoilerInputActivity"
+            >
+            
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.nateemma.greencompliance.BoilerInputActivity" />
+            
+            <intent-filter>
+                <action android:name="com.nateemma.greencompliance.BOILER_LIQUIDS_RESULTS" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Cooling Water Data Entry -->
+        <activity
+            android:name="com.nateemma.greencompliance.CoolingInputActivity"
+            android:label="@string/coolingInputActivity"
+            android:parentActivityName="com.nateemma.greencompliance.MainActivity"
+            
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+            
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.nateemma.greencompliance.MainActivity" />
+            
+            <intent-filter>
+                <action android:name="com.nateemma.greencompliance.COOLING_INPUT" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Cooling Water Results -->
+        <!-- Solids -->
+        <activity
+            android:name="com.nateemma.greencompliance.CoolingSolidsResultsActivity"
+            android:label="@string/coolingSolidsResultsActivity"
+            android:parentActivityName="com.nateemma.greencompliance.CoolingInputActivity"
+            
+            >
+            
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.nateemma.greencompliance.CoolingInputActivity" />
+            
+            <intent-filter>
+                <action android:name="com.nateemma.greencompliance.COOLING_SOLIDS_RESULTS" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Liquids -->
+        <activity
+            android:name="com.nateemma.greencompliance.CoolingLiquidsResultsActivity"
+            android:label="@string/coolingLiquidsResultsActivity"
+            android:parentActivityName="com.nateemma.greencompliance.CoolingInputActivity"
+            
+            >
+            
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.nateemma.greencompliance.CoolingInputActivity" />
+            
+            <intent-filter>
+                <action android:name="com.nateemma.greencompliance.COOLING_LIQUIDS_RESULTS" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <!-- About Us Activity -->
+        <activity
+            android:name="com.nateemma.greencompliance.AboutActivity"
+            android:label="@string/aboutActivity"
+            android:parentActivityName="com.nateemma.greencompliance.MainActivity"
+            
+            >
+            
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.nateemma.greencompliance.MainActivity" />
+            
+            <intent-filter>
+                <action android:name="com.nateemma.greencompliance.ABOUT" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Contact Us Activity -->
+        <activity
+            android:name="com.nateemma.greencompliance.ContactActivity"
+            android:label="@string/aboutActivity"
+            android:parentActivityName="com.nateemma.greencompliance.MainActivity"
+            
+            >
+            
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.nateemma.greencompliance.MainActivity" />
+            
+            <intent-filter>
+                <action android:name="com.nateemma.greencompliance.CONTACT" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Help Activity -->
+        <activity
+            android:name="com.nateemma.greencompliance.HelpActivity"
+            android:label="@string/helpActivity"
+            android:parentActivityName="com.nateemma.greencompliance.MainActivity"
+            
+            >
+            
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.nateemma.greencompliance.MainActivity" />
+            
+            <intent-filter>
+                <action android:name="com.nateemma.greencompliance.HELP" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Placeholder Activity for functions not yet implemented -->
+        <activity
+            android:name="com.nateemma.greencompliance.TBDActivity"
+            android:label="TBD"
+            
+            >
+            <intent-filter>
+                <action android:name="com.nateemma.greencompliance.TBD" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+    
+</manifest>

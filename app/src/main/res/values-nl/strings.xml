@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- DUTCH -->
+
+    <string name="app_name">WTP Schatting Gereedschap</string>
+    <string name="action_settings">Instellingen</string>
+
+    <!-- ======================= -->
+    <!-- Main Screen -->
+    <!-- ======================= -->
+    <string name="boilerWaterButtonText">Steam Boiler Product Schattingen</string>
+    <string name="coolingWaterButtonText">Koeling Water Product Schattingen</string>
+    <string name="boilerLabel">Stoomketel</string>
+    <string name="coolingLabel">Koelsysteem</string>
+    <string name="solidLabel">Solid Chemicals</string>
+    <string name="liquidLabel">Vloeibare chemicaliën</string>
+    <string name="helpLabel">Help</string>
+    <string name="aboutUsLabel">Over ons</string>
+    <string name="contactUsLabel">Contacteer ons</string>
+    <string name="space"></string>
+
+    <!-- ======================= -->
+    <!-- Steam Boiler Data Entry -->
+    <!-- ======================= -->
+    <string name="action_estimate">Raming</string>
+    <string name="boilerInputActivity">Stoomketel Parameters</string>
+    <string name="siteNameLabel">Site Naam</string>
+    <string name="sitePrompt">Naam:</string>
+    <string name="siteHint">Voer naam van de site</string>
+    <string name="inputError">Vul alle gegevens</string>
+    
+    <!--  -->
+    <string name="boilerDutyLabel">Ketel Duty</string>
+    <string name="summerTitle">Zomer</string>
+    <string name="winterTitle">Winter</string>
+    <string name="steamPrompt">Stoom (lb / ur)</string>
+    <string name="steamSumHint">Zomer stoom</string>
+    <string name="steamWinHint">Winter stoom</string>
+    <string name="hoursPrompt">Uur / dag</string>
+    <string name="hoursSumHint">Zomeruren</string>
+    <string name="hoursWinHint">Winter uuren</string>
+    <string name="daysPrompt">Dagen / week</string>
+    <string name="daysSumHint">Zomerdagen</string>
+    <string name="daysWinHint">Winterdagen</string>
+    <string name="weeksPrompt">Weken / jaar</string>
+    <string name="weeksSumHint">Zomerweken</string>
+    <string name="weeksWinHint">Winter weken</string>
+    <!--  -->
+    <string name="feedWaterLabel">Feed Water</string>
+    <string name="TDSPrompt">TDS</string>
+    <string name="TDSHint">TDS</string>
+    <string name="TDSUnit">ppm</string>
+    <string name="MAlkPrompt">M Alk</string>
+    <string name="MAlkHint">M Alk</string>
+    <string name="MAlkUnit">ppm</string>
+    <string name="pHPrompt">pH</string>
+    <string name="pHHint">pH</string>
+    <string name="pHUnit"></string>
+    <string name="CaHardnessPrompt">Ca Hardheid</string>
+    <string name="CaHardnessHint">Ca Hardheid</string>
+    <string name="CaHardnessUnit">ppm</string>
+    <string name="tempPrompt">Temperatuur</string>
+    <string name="tempHint">Temperatuur</string>
+    <string name="tempUnit">&#176;C</string>
+
+    <!--  -->
+    <string name="boilerDetailsLabel">Boiler Details</string>
+    <string name="maxTDSPrompt">Max TDS</string>
+    <string name="maxTDSHint">Max TDS</string>
+    <string name="maxTDSUnit">ppm</string>
+    <string name="minSulphitePrompt">Min Sulfiet Reserve</string>
+    <string name="minSulphiteHint">Min Sulfiet Reserve</string>
+    <string name="minSulphiteUnit">ppm</string>
+    <string name="minCausticPrompt">Min Bijtende Alkalinity</string>
+    <string name="minCausticHint">Min Bijtende Alkalinity</string>
+    <string name="minCausticUnit"></string>
+
+    <!-- ======================= -->
+    <!-- Steam Boiler Solids Product Estimates -->
+    <!-- ======================= -->
+    <string name="boilerSolidsResultsActivity">Stoomketel Schattingen (Solids)</string>
+    <string name="action_email">E-mail</string>
+    <string name="productTitle">Product</string>
+    <string name="dosageTitle">Dosering</string>
+    <string name="dosageUnits">(g/m&#179;)</string>
+    <string name="usageTitle">Gebruik</string>
+    <string name="usageUnits">(Kg / jaar)</string>
+
+    <string name="ss1294Description">Tannine-based zuurstof scavenger</string>
+    <string name="ss1295Description">All in One - Sulfiet</string>
+    <string name="ss1350Description">All in One - Sulfiet, geen bijtende</string>
+    <string name="ss1095Description">Natrium Sulfiet</string>
+    <string name="ss1995Description">Alkaliteit Builder</string>
+    <string name="ss2295Description">Fosfaat / Polymer</string>
+    <string name="ss8985Description">Aminen</string>
+
+    <!-- ======================= -->
+    <!-- Steam Boiler Liquids Product Estimates -->
+    <!-- ======================= -->
+    <string name="boilerLiquidsResultsActivity">Stoomketel Schattingen (Liquids)</string>
+
+    <string name="s5Description">17% als Natriumbisulfiet / gekatalyseerd</string>
+    <string name="s10Description">35% als Natriumbisulfiet / gekatalyseerd</string>
+    <string name="s123Description">All in One Low Sulfiet</string>
+    <string name="s125Description">All in One High Sulfiet</string>
+    <string name="s26Description">25% tannine / bijtende</string>
+    <string name="s28Description">25% tannine</string>
+    <string name="s19Description">Alkaliteit Builder</string>
+    <string name="s456Description">Polymeermengsel</string>
+    <string name="s124Description">Alles in een Tannine Goederen</string>
+    <string name="s22Description">Fosfaat / Polymer</string>
+    <string name="s23Description">Fosfaat / Polymer / Bijtende</string>
+    <string name="s88Description">Morfoline / Cyclohex</string>
+    <string name="s95Description">Filmen en het neutraliseren van amines</string>
+    <!--  -->
+
+
+    <!-- ======================= -->
+    <!-- Cooling Water Data Entry (some re-use from above) -->
+    <!-- ======================= -->
+
+    <string name="coolingInputActivity">Koeling Parameters Water</string>
+
+    <!--  -->
+    <string name="criteriaLabel">Criteria</string>
+    <string name="circulationPrompt">Circulatie</string>
+    <string name="circulationHint">Circulatie</string>
+    <string name="circulationUnit">m&#179;/uur</string>
+    <string name="deltaTPrompt">∆T</string>
+    <string name="deltaTHint">∆T</string>
+    <string name="deltaTUnit">&#176;C</string>
+    <string name="sumpVolumePrompt">Sump Volume</string>
+    <string name="sumpVolumeHint">Sump Volume</string>
+    <string name="sumpVolumeUnit">m&#179;</string>
+    <string name="sysVolumePrompt">Sys Volume</string>
+    <string name="sysVolumeHint">Sys Volume</string>
+    <string name="sysVolumeUnit">m&#179;</string>
+    <string name="concFactorPrompt">Conc Factor</string>
+    <string name="concFactorHint">Conc Factor</string>
+    <string name="concFactorUnit"></string>
+
+    <!--  -->
+    <string name="makeupLabel">Make-up Waterkwaliteit</string>
+    <string name="totalHardnessPrompt">Totaal Hardheid</string>
+    <string name="totalHardnessHint">Totaal Hardheid</string>
+    <string name="totalHardnessUnit"></string>
+    <string name="chloridesPrompt">Chloriden</string>
+    <string name="chloridesHint">Chloriden</string>
+    <string name="chloridesUnit"></string>
+    <!--  -->
+    <string name="coolingDutyLabel">Duty / Operation</string>
+    <string name="hoursHint">uur / dag</string>
+    <string name="daysHint">dagen / week</string>
+    <string name="weeksHint">weken / jaar</string>
+
+    <!-- ======================= -->
+    <!-- Cooling Water Solids Product Estimates -->
+    <!-- ======================= -->
+
+    <string name="coolingSolidsResultsActivity">Koelwater Schattingen (Solids)</string>
+    <string name="costKgTitle">Kosten / kg</string>
+    <string name="costKgUnits">(£ / kg)</string>
+    <string name="costAnnumTitle">Kosten / Yr</string>
+    <string name="costAnnumUnits">(£ / jr)</string>
+    <!--  -->
+    <string name="inhibitorTitle">Remmers</string>
+
+    <string name="hs2097Description">Alle organische verkalkingsremmer</string>
+    <string name="hs4390Description">Molybdaat met fosfor schaal / corrosieinhibitor</string>
+    <string name="hs3990Description">Silicaat / Fosfonaat corrosieinhibitor</string>
+    <!--  -->
+    <string name="biocidesTitle">Biociden</string>
+
+    <string name="cs4400Description">Biocide + Dispergeermiddel</string>
+    <string name="cs4802Description">Bronopol</string>
+    <string name="cs4490Description">DBNPA</string>
+    <string name="scg1Description">SDIC</string>
+    <string name="cschlorDescription">Cal Hypo Tablet</string>
+    <string name="c42tDescription">Broomtabletten (Brominator)</string>
+
+    <!-- ======================= -->
+    <!-- Cooling Liquids Product Estimates -->
+    <!-- ======================= -->
+    <!-- some re-use from solids section -->
+    <string name="coolingLiquidsResultsActivity">Koeling Schattingen (Liquids)</string>
+    <string name="nOxBiocides01">Biociden</string>
+    <string name="nOxBiocides02">Niet-oxiderend</string>
+    <string name="doseRate">Dose Rate</string>
+    <string name="doseRateUnits">mg / L in het systeem</string>
+    <string name="doseRateAnnum01">Liters / jaar</string>
+    <string name="doseRateAnnum02">Geschatte</string>
+    <string name="minDoseTitle">Minimale dosis</string>
+    <string name="minDoseUnits">ppm</string>
+    <string name="oxBiocides01">Biociden</string>
+    <string name="oxBiocides02">Oxiderende</string>
+    <string name="oxHdr01">Minimale vrije</string>
+    <string name="oxHdr02">Halogeen</string>
+    <string name="halogenDose">1&#8211;3 ppm</string>
+    <string name="oxDescription">Zoals vereist door L8</string>
+    
+
+    <string name="h207Description">Verkalkingsremmer</string>
+    <string name="h2073Description">Verkalkingsremmer</string>
+    <string name="h280Description">Schaal / corrosie-inhibitor</string>
+    <string name="h2805Description">Schaal / corrosie-inhibitor</string>
+    <string name="h390Description">Corrosieremmer</string>
+    <string name="h3905Description">Corrosieremmer</string>
+    <string name="h391Description">Corrosieremmer</string>
+    <string name="h423Description">Schaal / corrosie-inhibitor</string>
+    <string name="h425Description">Corrosieremmer</string>
+    <string name="h4255Description">Corrosieremmer</string>
+    <string name="h535Description">Schaal / corrosie-inhibitor</string>
+    <string name="h874Description">Verkalkingsremmer</string>
+
+    <string name="c31Description">Isothiazalones</string>
+    <string name="c32Description">Isothiazalones</string>
+    <string name="c44Description">DBNPA</string>
+    <string name="c45Description">Glutaraldehyde</string>
+    <string name="c48Description">Bronopol BNPD</string>
+    <string name="c51Description">THPS</string>
+    <string name="c52Description">BAC Quat</string>
+    <string name="c54Description">Poly Quat</string>
+    <string name="c58Description">DDQ Quat</string>
+
+
+    <string name="c42tbDescription">BCDMH 20g tablet</string>
+    <string name="ub30Description">Vloeibare broom</string>
+    <string name="chlor10Description">Natriumhypochloriet</string>
+    <string name="b20Description">Sodium Bromide</string>
+
+    <!-- ======================= -->
+    <!-- About Us -->
+    <!-- ======================= -->
+    <string name="aboutActivity">Over ons</string>
+    <string name="aboutText">\n\n
+ Waterbehandeling Products Ltd, opgericht in 1999, formuleren en produceren chemische specialiteiten voor een breed scala van waterbehandeling bedrijven en applicaties. Of u chemicaliën nodig voor ketel, koelwater, omgekeerde osmose, chloreren of desinfectie we zijn experts in heldere oplossingen voor uw waterbehandeling eisen produceren. \n
+ \n
+ Om de kwaliteit te handhaven, hebben we volledige controle over alle chemische formuleringen - de aankoop van grondstoffen kwaliteit, de keuze van de verpakking en efficiënte levering methoden - ervoor te zorgen dat u geniet van de allerbeste producten aan uw individuele wensen aan te passen. De producten worden vervaardigd in onze eigen, volledig ingedamd, moderne fabriek in Zuid-Wales - ideaal gelegen voor gemakkelijke distributie naar het Verenigd Koninkrijk en overzeese markten. \n
+ \n
+ Wat formulering, kunnen wij voldoen aan uw behoeften. We hebben meer dan 200 beproefde formuleringen beschikbaar, dus wat uw wensen zijn, zullen we een oplossing hebben. Water Treatment Producten aanbieding: \n
+ \n
+ • Unieke formuleringen \n
+ • Een volledig gamma van chemicaliën, poeders en vloeistoffen \n
+ • Water Test Kits - Drop Test Kits en Dip Slides: Single, Ingenieurs en Chemical Specifieke Kits \n
+ • Solid Chemicals \n
+ • Eigen label chemicaliën \n
+ • Keuze van verpakkingen \n
+ • Producten vervaardigd in onze eigen fabriek \n
+ • ISO 9001 kwaliteit verzekerd \n
+ • ISO 14001-milieunormen \n
+ • Investors in People \n
+ • Volledig compatibel met alle wetgeving \n
+ • CLP (GHS) MSDS \n
+ • CHIPS III en ADR \n
+ • Expertise op de exportmarkt \n
+ • On-site DGSA en Chemici \n
+</string>
+
+    <!-- ======================= -->
+    <!-- Help -->
+    <!-- ======================= -->
+
+    <string name="helpActivity">Help</string>
+    <string name="helpIntroTitle">Introductie</string>
+    <string name="helpIntro">
+Deze app biedt een set van rekenmachines voor het schatten van de hoeveelheid producten die nodig zijn voor de aanpak van de behandeling van ketel-en koelwatersystemen. \n
+ De app en rekenmachines zijn in goed vertrouwen aangeboden alleen als richtlijn; website parameters kunnen veranderen en details opgedaan in onderzoek stadium niet altijd nauwkeurig. 
+ WTP Ltd en de ontwikkelaars bieden de app te goeder trouw en zonder garantie, het doel ervan is voor de algemene leiding van mogelijke chemische stoffen alleen gebruik. \n \n
+ Meer informatie over de verschillende schermen wordt hieronder gegeven 
+ &#8230;\n
+</string>
+   
+    <string name="helpGeneralTitle">Algemeen</string>
+            <string name="helpGeneral">
+                Naar de product data-schermen, selecteer het type systeem en product 
+         (Boiler of Cooling System, vaste of vloeibare producten). \n 
+         Voor algemene informatie over WTP, raakt u de "Over ons" knop. \n
+         Voor contactgegevens (telefoonnummer, e-mail, website, locatie), drukt u op de "Contact" knop \n
+        </string>
+    
+    <string name="helpBoilerTitle">Steam Boiler Product Schattingen</string>
+    <string name="helpBoiler">
+Dit is een set van schermen waar u de parameters kunt invoeren in uw systeem en vervolgens een schatting van de hoeveelheid bijbehorende WTP producten die je 
+nodig zou hebben, op basis van de ingevoerde gegevens. \n \n
+ Op het eerste scherm, voert u de relevante gegevens voor uw systeem, raak vervolgens het pictogram "berekenen" op de bovenste balk (aan de rechterkant). 
+ Dit geeft vervolgens een overzicht van het product schattingen. \n
+ \n
+ Merk op dat er veel input velden, dus de makkelijkste manier om gegevens in te voeren is om de "Next" knop boven het toetsenbord - dit zal naar het volgende veld, 
+ zonder het toetsenbord te laten verdwijnen en handmatig te bladeren naar de volgende veld. Als geldig, worden de gegevens opgeslagen en hersteld wanneer u de app 
+ opnieuw te lopen (scheelt een hoop typwerk). \n
+ \n
+Als je gaat naar de moeite van het invoeren van de gegevens, moet u waarschijnlijk iets mee te doen! Om u te helpen in dit opzicht, zal de icoon "E-mail" samenvatten 
+de ingangen en schattingen in een e-mail die u kunt bewerken en verzenden naar een e-mailadres.
+</string>
+    
+    <string name="helpCoolingTitle">Cooling Water Product Schattingen</string>
+    <string name="helpCooling">
+Dit is een reeks schermen die in wezen hetzelfde als het ketelwater schermen, maar voor koelwatersystemen 
+\n \n 
+Navigatie en gegevensinvoer zijn vergelijkbaar met de Boiler schermen, en worden ook hersteld vorig gebruik en email kan worden verzonden indien gewenst.
+        </string>
+    
+    <string name="helpAboutTitle">Over ons</string>
+    <string name="helpAbout">Dit scherm geeft een introductie van producten voor waterbehandeling, Inc</string>
+    
+    <string name="helpContactTitle">Contacteer ons</string>
+    <string name="helpContact">Dit scherm biedt een verscheidenheid aan contactgegevens, waaronder: \n
+ \n
+ - website \n
+ - Telefoon-en faxnummers \n
+ - verschillende emailadressen \n
+ - kantooradres \n
+ \n
+Indien ondersteund door het apparaat, kunt u het betreffende veld aan te raken om die methode van communicatie, zoals de lancering van de browser op de website te activeren, 
+bellen naar het telefoonnummer, het openen van een e-mail of het tonen van een kaart van de kantoorlocatie.
+</string>
+    <string name="helpCopyrightTitle">Copyright activeren</string>
+    <string name="helpCopyright">Copyright&#169; 2013,  Water Treatment Products Inc and Nateemma LLC</string>
+
+    <!-- ======================= -->
+    <!-- Contact Us -->
+    <!-- ======================= -->
+
+    <string name="contactActivity">Contacteer ons</string>
+    <string name="contactWebsiteTitle">Web Site</string>
+    <string name="contactWebsite">http://watertreatmentproducts.co.uk</string>
+    <string name="contactNumbersTitle">Aantallen</string>
+    <string name="contactTelLabel">Telefoon:</string>
+    <string name="contactTel">01495&#8211;792&#8211;790</string>
+    <string name="contactFaxLabel">FAX:</string>
+    <string name="contactFax">01495&#8211;792&#8211;090</string>
+    <string name="contactEmailsTitle">E-mail</string>
+    <string name="emailSalesLabel">Verkoopinformatie:</string>
+    <string name="emailSales">sales@watertreatmentproducts.co.uk</string>
+    <string name="emailHelpLabel">Technische ondersteuning:</string>
+    <string name="emailHelp">help@watertreatmentproducts.co.uk</string>
+    <string name="emailInfoLabel">Algemene informatie:</string>
+    <string name="emailInfo">info@watertreatmentproducts.co.uk</string>
+    <string name="emailDistributorLabel">Distributeur Kansen:</string>
+    <string name="emailDistributor">distributor@watertreatmentproducts.co.uk</string>
+    <string name="emailLeisureLabel">Pool Chemicals Ondersteuning:</string>
+    <string name="emailLeisure">leisure@watertreatmentproducts.co.uk</string>
+    <string name="emailMediaLabel">Vragen van de pers:</string>
+    <string name="emailMedia">media@watertreatmentproducts.co.uk</string>
+    <string name="contactOfficeTitle">Adres kantoor</string>
+    <string name="contactOffice">Unit 1, Gilchrist Thomas Industrial Estate, \nBlaenavon, Torfaen NP4 9RL, UK</string>
+
+</resources>

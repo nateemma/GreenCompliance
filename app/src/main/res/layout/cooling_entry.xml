@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:scrollbars="none" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- ===================================================== -->
+        <!-- SITE -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:id="@+id/siteHdr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gc_light_green" >
+
+            <TextView
+                style="?android:attr/textAppearanceLarge"
+                android:padding="6dip"
+                android:text="@string/siteNameLabel" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/sitePrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inSite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/siteHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="text"
+                android:textColor="@color/WTP_blue" >
+
+               <!--   <requestFocus /> -->
+            </EditText>
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <!-- ===================================================== -->
+        <!-- CRITERIA -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gc_light_green" >
+
+            <TextView
+                style="?android:attr/textAppearanceLarge"
+                android:padding="6dip"
+                android:text="@string/criteriaLabel" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/circulationPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inCirculation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/circulationHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/circulationUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/deltaTPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inDeltaT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/deltaTHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/deltaTUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/sumpVolumePrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inSumpVolume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/sumpVolumeHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/sumpVolumeUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/sysVolumePrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inSysVolume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/sysVolumeHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/sysVolumeUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/concFactorPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inConcFactor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/concFactorHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/concFactorUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <!-- ===================================================== -->
+        <!-- MAKEUP WATER QUALITY -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gc_light_green" >
+
+            <TextView
+                style="?android:attr/textAppearanceLarge"
+                android:padding="6dip"
+                android:text="@string/makeupLabel" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/TDSPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inTDS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/TDSHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/TDSUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/totalHardnessPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inTotalHardness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/totalHardnessHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/totalHardnessUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/MAlkPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inMAlk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/MAlkHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/MAlkUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/pHPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inPH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/pHHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/pHUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/chloridesPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inChlorides"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/chloridesHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/chloridesUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <!-- ===================================================== -->
+        <!-- DUTY / OPERATION -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gc_light_green" >
+
+            <TextView
+                style="?android:attr/textAppearanceLarge"
+                android:padding="6dip"
+                android:text="@string/coolingDutyLabel" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/hoursPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inHours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hoursHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:nextFocusDown="@+id/inDays"
+                android:nextFocusForward="@+id/inDays"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/daysPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inDays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/daysHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:nextFocusDown="@+id/inWeeks"
+                android:nextFocusForward="@+id/inWeeks"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/weeksPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inWeeks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/weeksHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+    </TableLayout>
+
+</ScrollView>

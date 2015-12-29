@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="WTP_white">#CFCFFF</color>
+    
+    <color name="WTP_blue">#01378D</color>
+    <color name="WTP_mid_blue">#0263FF</color>
+    <color name="WTP_light_blue">#4E92FF</color>
+   <color name="WTP_translucent__blue">#4F01378D</color>
+    
+    <color name="WTP_orange">#F19A39</color>
+    <color name="WTP_mid_orange">#F2BD82</color>
+    <color name="WTP_light_orange">#FFC789</color>
+    <color name="WTP_solid_orange">#FFF39D41</color>
+    <color name="WTP_translucent_orange">#AFF19A39</color>
+    
+    <color name="WTP_green">#018D37</color>
+
+    <color name="gc_light_green">#f0aabf00</color>
+    <color name="gc_green">#aabf00</color>
+    <color name="gc_light_blue">#a9d0f1</color>
+    <color name="gc_dark_blue">#3d91cd</color>
+</resources>

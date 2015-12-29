@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:scrollbars="none" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- ===================================================== -->
+        <!-- INHIBITORS HEADER -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="12dip"
+            android:background="@color/gc_light_green"
+            android:padding="0dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/inhibitorTitle"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="4dip"
+                android:text="@string/dosageTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="4dip"
+                android:text="@string/usageTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="4dip"
+                android:text="@string/costKgTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="4dip"
+                android:text="@string/costAnnumTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="12dip"
+            android:background="@color/gc_light_green"
+            android:padding="0dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/dosageUnits"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/usageUnits"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="4dip"
+                android:text="@string/costKgUnits"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="4dip"
+                android:text="@string/costAnnumUnits"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+        </TableRow>
+
+        <!-- ===================================================== -->
+        <!-- PRODUCT DATA -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="24dip"
+            android:padding="4dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/hs2097Title"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outHS2097Dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outHS2097Usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:id="@+id/outHS2097CostKg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outHS2097CostAnnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:textColor="@color/WTP_green"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hs2097Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="24dip"
+            android:padding="4dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/hs4390Title"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outHS4390Dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outHS4390Usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:id="@+id/outHS4390CostKg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outHS4390CostAnnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                 android:textColor="@color/WTP_green"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hs4390Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="24dip"
+            android:padding="4dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/hs3990Title"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outHS3990Dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outHS3990Usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:id="@+id/outHS3990CostKg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outHS3990CostAnnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:textColor="@color/WTP_green"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hs3990Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <!-- ===================================================== -->
+        <!-- BIOCIDES HEADER -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="12dip"
+            android:background="@color/gc_light_green"
+            android:padding="0dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/biocidesTitle"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/dosageTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/usageTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/costKgTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/costAnnumTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="12dip"
+            android:background="@color/gc_light_green"
+            android:padding="0dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/dosageUnits"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/usageUnits"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/costKgUnits"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/costAnnumUnits"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_blue" />
+        </TableRow>
+
+        <!-- ===================================================== -->
+        <!-- BIOCIDES DATA -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="24dip"
+            android:padding="4dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/cs4400Title"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outCS4400Dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outCS4400Usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:id="@+id/outCS4400CostKg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outCS4400CostAnnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:textColor="@color/WTP_green"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cs4400Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="24dip"
+            android:padding="4dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/cs4802Title"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outCS4802Dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outCS4802Usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:id="@+id/outCS4802CostKg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outCS4802CostAnnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:textColor="@color/WTP_green"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cs4802Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="24dip"
+            android:padding="4dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/cs4490Title"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outCS4490Dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outCS4490Usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:id="@+id/outCS4490CostKg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outCS4490CostAnnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:textColor="@color/WTP_green"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cs4490Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="24dip"
+            android:padding="4dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/scg1Title"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outSCG1Dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outSCG1Usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:id="@+id/outSCG1CostKg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outSCG1CostAnnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:textColor="@color/WTP_green"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scg1Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="24dip"
+            android:padding="4dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/cschlorTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outCSChlorDosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outCSChlorUsage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:id="@+id/outCSChlorCostKg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outCSChlorCostAnnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:textColor="@color/WTP_green"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cschlorDescription"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="24dip"
+            android:padding="4dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dip"
+                android:text="@string/c42tTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/outC42TDosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outC42TUsage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WTP_green" />
+
+            <TextView
+                android:id="@+id/outC42TCostKg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/outC42TCostAnnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dip"
+                android:textColor="@color/WTP_green"
+                android:text="0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c42tDescription"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:scrollbars="none" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- ===================================================== -->
+        <!-- SITE -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:id="@+id/siteHdr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gc_light_green" >
+
+            <TextView
+                style="?android:attr/textAppearanceLarge"
+                android:padding="6dip"
+                android:text="@string/siteNameLabel" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/sitePrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inSite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/siteHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="text"
+                android:textColor="@color/WTP_blue" >
+                
+            </EditText>
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <!-- ===================================================== -->
+        <!-- BOILER DUTY -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:id="@+id/boilerDutyHdr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gc_light_green" >
+
+            <TextView
+                style="?android:attr/textAppearanceLarge"
+                android:padding="6dip"
+                android:text="@string/boilerDutyLabel" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/summerTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/winterTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/steamPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inSteamSum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/steamSumHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:nextFocusDown="@+id/inSteamWin"
+                android:nextFocusForward="@+id/inSteamWin"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/inSteamWin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/steamWinHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:nextFocusDown="@+id/inHoursSum"
+                android:nextFocusForward="@+id/inHoursSum"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/hoursPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inHoursSum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hoursSumHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:nextFocusDown="@+id/inHoursWin"
+                android:nextFocusForward="@+id/inHoursWin"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/inHoursWin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hoursWinHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:nextFocusDown="@+id/inDaysSum"
+                android:nextFocusForward="@+id/inDaysSum"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/daysPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inDaysSum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/daysSumHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:nextFocusDown="@+id/inDaysWin"
+                android:nextFocusForward="@+id/inDaysWin"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/inDaysWin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/daysWinHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:nextFocusDown="@+id/inWeeksSum"
+                android:nextFocusForward="@+id/inWeeksSum"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/weeksPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inWeeksSum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/weeksSumHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:nextFocusDown="@+id/inWeeksWin"
+                android:nextFocusForward="@+id/inWeeksWin"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/inWeeksWin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/weeksWinHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:nextFocusDown="@+id/inTDS"
+                android:nextFocusForward="@+id/inTDS"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <!-- ===================================================== -->
+        <!-- FEED WATER -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:id="@+id/feedWaterHdr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gc_light_green" >
+
+            <TextView
+                style="?android:attr/textAppearanceLarge"
+                android:padding="6dip"
+                android:text="@string/feedWaterLabel" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/TDSPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inTDS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/TDSHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/TDSUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/MAlkPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inMAlk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/MAlkHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/MAlkUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/pHPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inPH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/pHHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/pHUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/CaHardnessPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inCaHardness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/CaHardnessHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/CaHardnessUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/tempPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/tempHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/tempUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <!-- ===================================================== -->
+        <!-- BOILER DETAILS -->
+        <!-- ===================================================== -->
+
+        <TableRow
+            android:id="@+id/boilerDetailsHdr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gc_light_green" >
+
+            <TextView
+                style="?android:attr/textAppearanceLarge"
+                android:padding="6dip"
+                android:text="@string/boilerDetailsLabel" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/maxTDSPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inMaxTDS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/maxTDSHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/maxTDSUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/minSulphitePrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inMinSulphite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/minSulphiteHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/minSulphiteUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+
+            <TextView
+                android:paddingLeft="12dip"
+                android:text="@string/minCausticPrompt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/inMinCaustic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/minCausticHint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="numberDecimal"
+                android:textColor="@color/WTP_blue" >
+            </EditText>
+
+            <TextView
+                android:text="@string/minCausticUnit"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip" >
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
