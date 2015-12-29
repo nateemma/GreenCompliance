@@ -4,6 +4,7 @@ import java.io.File;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.Html;
@@ -60,6 +61,12 @@ public class BoilerLiquidsResultsActivity extends Activity {
 
 			mContext = this;
 			getActionBar().setDisplayHomeAsUpEnabled(true);
+
+			// force landscape orientation, if setup indicates. Do this before calling setContentView
+			if(getResources().getBoolean(R.bool.landscape_only)){
+				setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+				Log.d(TAG, "Forcing LANDSCAPE mode");
+			}
 
 			setContentView(R.layout.boiler_liquids_results);
 

@@ -1,5 +1,6 @@
 package com.nateemma.greencompliance;
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
@@ -49,6 +50,12 @@ public class BoilerInputActivity extends Activity {
 
 			mContext = this;
 			getActionBar().setDisplayHomeAsUpEnabled(true);
+
+			// force landscape orientation, if setup indicates. Do this before calling setContentView
+			if(getResources().getBoolean(R.bool.landscape_only)){
+				setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+				Log.d(TAG, "Forcing LANDSCAPE mode");
+			}
 
 			setContentView(R.layout.boiler_entry);
 

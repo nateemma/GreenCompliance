@@ -17,8 +17,8 @@ import android.util.Log;
 public class FileCache {
 
 
-	private static final String TAG         = "AttachmentBuilder";
-	private static final String ATTACH_DIR  = "/sdcard/WTP/";
+	private static final String TAG         = "FileCache";
+	private static final String ATTACH_DIR  = "/sdcard/GreenC/";
 	private static final String ATTACH_EXT  = ".html";
 	private static boolean      mCacheReady = false;
 
