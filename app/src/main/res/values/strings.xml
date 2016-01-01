@@ -353,29 +353,52 @@ Copyright &#169; 2016, Green Compliance Water Division Ltd. and Nateemma LLC\n</
     <!-- ======================= -->
 
     <string name="contactActivity">Contact Us</string>
+
     <string name="contactWebsiteTitle">Web Site</string>
     <string name="contactWebsite">http://www.greencompliance.com/</string>
+
     <string name="contactNumbersTitle">Numbers</string>
-    <string name="contactTelLabel">Telephone:</string>
+    <string name="contactTelLabel">Main Telephone:</string>
     <string name="contactTel">033&#8211;022&#8211;31313</string>
-    <string name="contactFaxLabel"></string>
-    <string name="contactFax"></string>
+
+    <string name="contactTel1Label">Bromsgrove:</string>
+    <string name="contactTel1">033 022 31313</string>
+
+    <string name="contactTel2Label">Thornbury:</string>
+    <string name="contactTel2">01454 411888</string>
+
+    <string name="contactTel3Label">Wickford:</string>
+    <string name="contactTel3">01268 768444</string>
+
+    <string name="contactTel4Label">Falkirk:</string>
+    <string name="contactTel4">01324 637898</string>
+
+    <string name="contactTel5Label">Credit Control:</string>
+    <string name="contactTel5">01926 485544</string>
+
 
     <string name="contactEmailsTitle">Email</string>
-    <string name="emailSalesLabel">Sales Information:</string>
-    <string name="emailSales">sales@watertreatmentproducts.co.uk</string>
-    <string name="emailHelpLabel">Technical Support:</string>
-    <string name="emailHelp">water@greencompliance.com</string>
-    <string name="emailInfoLabel">General Information:</string>
-    <string name="emailInfo">water@greencompliance.com</string>
-    <string name="emailDistributorLabel">Distributor Opportunities:&#xA0;&#xA0;</string>
-    <string name="emailDistributor">water@greencompliance.com</string>
-    <string name="emailLeisureLabel">Pool Chemicals Support:</string>
-    <string name="emailLeisure">water@greencompliance.com</string>
-    <string name="emailMediaLabel">Press Inquiries:</string>
-    <string name="emailMedia">water@greencompliance.com</string>
+    <string name="emailWaterLabel">Main Email:</string>
+    <string name="emailWater">water@greencompliance.com</string>
+    <string name="emailRemittanceLabel">Remittance:</string>
+    <string name="emailRemittance">water.remittances@greencompliance.com</string>
 
-    <string name="contactOfficeTitle">Office Address</string>
-    <string name="contactOffice">Unit 5,\nWest Court,\nBuntsford Hill Business Park,\nBuntsford Park Road,\nBromsgrove,\nWorcestershire,\nB60 3DX</string>
+
+    <string name="contactOfficeTitle">Office Addresses</string>
+    <string name="contactOffice1">Unit 5,\nWest Court,\nBuntsford Hill Business Park,\nBuntsford Park Road,\nBromsgrove,\nWorcestershire,\nB60 3DX\n</string>
+
+    <string name="contactOffice2">10 Mead Court,\nCooper Road,\nThornbury,\nBristol,\nBS35 3UW\n</string>
+
+    <string name="contactOffice3">2 Kingfishers,\nHodgson Way,\nWickford,\nSS11 8YN\n</string>
+
+    <string name="contactOffice4">29 Castle Road,\nBankside Industrial Estate,\nFalkirk,\nFK2 7UY\n</string>
+
+    <string name="contactOffice5Label">Credit Control:</string>
+    <string name="contactOffice5">Unit E3,\nHolly Farm Business Park,\nHoniley,\nCV8 1NP\n</string>
+
+    <string name="contactOffice6Label">Registered Address:</string>
+    <string name="contactOffice6">47 Riverside,\nMedway City Estate,\nRochester,\nKent,\nME2 4DP\n</string>
+
+
 
 </resources>

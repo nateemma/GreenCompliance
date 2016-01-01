@@ -18,19 +18,17 @@ public class ContactActivity extends Activity {
 
 	private static final String TAG = "ContactActivity";
 
+	private static final int NUM_EMAILS = 2;
+	private static final int NUM_TELEPHONE_NUMBERS = 6;
+	private static final int NUM_ADDRESSES = 5;
 
 	private Context mContext=null;
 
 	private static TextView vContactWebsite;
-	private static TextView vContactTel;
-	//private static TextView vContactFax;
-	private static TextView vEmailSales;
-	private static TextView vEmailHelp;
-	private static TextView vEmailInfo;
-	private static TextView vEmailDistributor;
-	private static TextView vEmailLeisure;
-	private static TextView vEmailMedia;
-	private static TextView vContactOffice;
+	private static TextView [] vContactTels = new TextView[NUM_TELEPHONE_NUMBERS];
+	private static TextView [] vEmails = new TextView[NUM_EMAILS];
+	private static TextView [] vAddresses = new TextView[NUM_ADDRESSES];
+
 
 
 
@@ -53,26 +51,41 @@ public class ContactActivity extends Activity {
 			// connect the views with the output fields
 
 			vContactWebsite = (TextView)findViewById(R.id.contactWebsite);
-			vContactTel = (TextView)findViewById(R.id.contactTel);
-			//vContactFax = (TextView)findViewById(R.id.contactFax);
-			vEmailSales = (TextView)findViewById(R.id.emailSales);
-			vEmailHelp = (TextView)findViewById(R.id.emailHelp);
-			vEmailInfo = (TextView)findViewById(R.id.emailInfo);
-			vEmailDistributor = (TextView)findViewById(R.id.emailDistributor);
-			vEmailLeisure = (TextView)findViewById(R.id.emailLeisure);
-			vEmailMedia = (TextView)findViewById(R.id.emailMedia);
-			vContactOffice = (TextView)findViewById(R.id.contactOffice);
+
+			vContactTels[0] = (TextView)findViewById(R.id.contactTel);
+			vContactTels[1] = (TextView)findViewById(R.id.contactTel1);
+			vContactTels[2] = (TextView)findViewById(R.id.contactTel2);
+			vContactTels[3] = (TextView)findViewById(R.id.contactTel3);
+			vContactTels[4] = (TextView)findViewById(R.id.contactTel4);
+			vContactTels[5] = (TextView)findViewById(R.id.contactTel5);
+
+			vEmails[0] = (TextView)findViewById(R.id.emailWater);
+			vEmails[1] = (TextView)findViewById(R.id.emailRemittance);
+
+			vAddresses[0] = (TextView)findViewById(R.id.contactOffice1);
+			vAddresses[1] = (TextView)findViewById(R.id.contactOffice2);
+			vAddresses[2] = (TextView)findViewById(R.id.contactOffice3);
+			vAddresses[3] = (TextView)findViewById(R.id.contactOffice4);
+			vAddresses[4] = (TextView)findViewById(R.id.contactOffice5);
+			vAddresses[5] = (TextView)findViewById(R.id.contactOffice6);
+
 
 			// set up listeners
 			vContactWebsite.setOnClickListener(mWebsiteListener);
-			vContactTel.setOnClickListener(mCallListener);
-			vEmailSales.setOnClickListener(mEmailListener);
-			vEmailHelp.setOnClickListener(mEmailListener);
-			vEmailInfo.setOnClickListener(mEmailListener);
-			vEmailDistributor.setOnClickListener(mEmailListener);
-			vEmailLeisure.setOnClickListener(mEmailListener);
-			vEmailMedia.setOnClickListener(mEmailListener);
-			vContactOffice.setOnClickListener(mMapListener);
+
+			for (int i=0; i<NUM_TELEPHONE_NUMBERS; i++) {
+				vContactTels[i].setOnClickListener(mCallListener);
+			}
+
+
+			for (int i=0; i<NUM_EMAILS; i++) {
+				vEmails[i].setOnClickListener(mEmailListener);
+			}
+
+
+			for (int i=0; i<NUM_ADDRESSES; i++) {
+				vAddresses[i].setOnClickListener(mMapListener);
+			}
 
 		} catch (Exception e){
 			Log.e(TAG, "onCreate() Error: "+e.toString());

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:layout_weight="1"
-    android:scrollbars="none" >
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scrollbars="none">
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content">
 
         <!-- ===================================================== -->
         <!-- WEBSITE -->
@@ -16,32 +16,32 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/gc_light_green" >
+            android:background="@color/gc_light_green">
 
             <TextView
                 style="?android:attr/textAppearanceLarge"
                 android:padding="6dip"
-                android:text="@string/contactWebsiteTitle" />
+                android:text="@string/contactWebsiteTitle"/>
         </TableRow>
 
         <TableRow
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <TextView
                 android:text=""
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
 
             <TextView
                 android:id="@+id/contactWebsite"
                 android:text="@string/contactWebsite"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/WTP_mid_blue" />
+                android:textColor="@color/WTP_mid_blue"/>
         </TableRow>
 
         <View
             android:layout_height="2dip"
-            android:background="#FF909090" />
+            android:background="#FF909090"/>
 
         <!-- ===================================================== -->
         <!-- NUMBERS -->
@@ -50,51 +50,120 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/gc_light_green" >
+            android:background="@color/gc_light_green">
 
             <TextView
                 style="?android:attr/textAppearanceLarge"
                 android:padding="4dip"
-                android:text="@string/contactNumbersTitle" />
+                android:text="@string/contactNumbersTitle"/>
         </TableRow>
 
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="4dip" >
+            android:padding="4dip">
 
             <TextView
                 android:text="@string/contactTelLabel"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
 
             <TextView
-                 android:id="@+id/contactTel"
+                android:id="@+id/contactTel"
                 android:layout_gravity="left"
                 android:text="@string/contactTel"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/WTP_mid_blue" />
+                android:textColor="@color/WTP_mid_blue"/>
         </TableRow>
 
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="4dip" >
+            android:padding="4dip">
 
             <TextView
-                android:text="@string/contactFaxLabel"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:text="@string/contactTel1Label"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
 
             <TextView
-                 android:id="@+id/contactFax"
+                android:id="@+id/contactTel1"
                 android:layout_gravity="left"
-                android:text="@string/contactFax"
+                android:text="@string/contactTel1"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/WTP_mid_blue" />
+                android:textColor="@color/WTP_mid_blue"/>
         </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip">
+
+            <TextView
+                android:text="@string/contactTel2Label"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/contactTel2"
+                android:layout_gravity="left"
+                android:text="@string/contactTel2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_mid_blue"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip">
+
+            <TextView
+                android:text="@string/contactTel3Label"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/contactTel3"
+                android:layout_gravity="left"
+                android:text="@string/contactTel3"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_mid_blue"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip">
+
+            <TextView
+                android:text="@string/contactTel4Label"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/contactTel4"
+                android:layout_gravity="left"
+                android:text="@string/contactTel4"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_mid_blue"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip">
+
+            <TextView
+                android:text="@string/contactTel5Label"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/contactTel5"
+                android:layout_gravity="left"
+                android:text="@string/contactTel5"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_mid_blue"/>
+        </TableRow>
+
 
         <View
             android:layout_height="2dip"
-            android:background="#FF909090" />
+            android:background="#FF909090"/>
 
         <!-- ===================================================== -->
         <!-- EMAILS -->
@@ -103,113 +172,50 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/gc_light_green" >
+            android:background="@color/gc_light_green">
 
             <TextView
                 style="?android:attr/textAppearanceLarge"
                 android:padding="4dip"
-                android:text="@string/contactEmailsTitle" />
+                android:text="@string/contactEmailsTitle"/>
         </TableRow>
 
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="4dip" >
+            android:padding="4dip">
 
             <TextView
-                android:text="@string/emailSalesLabel"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:text="@string/emailWaterLabel"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
 
             <TextView
-                android:id="@+id/emailSales"
-                android:text="@string/emailSales"
+                android:id="@+id/emailWater"
+                android:text="@string/emailWater"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/WTP_mid_blue" />
+                android:textColor="@color/WTP_mid_blue"/>
         </TableRow>
 
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="4dip" >
+            android:padding="4dip">
 
             <TextView
-                android:text="@string/emailHelpLabel"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:text="@string/emailRemittanceLabel"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
 
             <TextView
-                android:id="@+id/emailHelp"
-                android:text="@string/emailHelp"
+                android:id="@+id/emailRemittance"
+                android:text="@string/emailRemittance"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/WTP_mid_blue" />
+                android:textColor="@color/WTP_mid_blue"/>
         </TableRow>
 
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="4dip" >
-
-            <TextView
-                android:text="@string/emailInfoLabel"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
-
-            <TextView
-                 android:id="@+id/emailInfo"
-                android:text="@string/emailInfo"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/WTP_mid_blue" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="4dip" >
-
-            <TextView
-                android:text="@string/emailDistributorLabel"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
-
-            <TextView
-                 android:id="@+id/emailDistributor"
-                android:text="@string/emailDistributor"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/WTP_mid_blue" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="4dip" >
-
-            <TextView
-                android:text="@string/emailLeisureLabel"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
-
-            <TextView
-                 android:id="@+id/emailLeisure"
-                android:text="@string/emailLeisure"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/WTP_mid_blue" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="4dip" >
-
-            <TextView
-                android:text="@string/emailMediaLabel"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
-
-            <TextView
-                 android:id="@+id/emailMedia"
-                android:text="@string/emailMedia"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/WTP_mid_blue" />
-        </TableRow>
 
         <View
             android:layout_height="2dip"
-            android:background="#FF909090" />
+            android:background="#FF909090"/>
 
         <!-- ===================================================== -->
         <!-- ADDRESS -->
@@ -218,35 +224,116 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/gc_light_green" >
+            android:background="@color/gc_light_green">
 
             <TextView
                 style="?android:attr/textAppearanceLarge"
                 android:padding="6dip"
-                android:text="@string/contactOfficeTitle" />
+                android:text="@string/contactOfficeTitle"/>
         </TableRow>
 
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="4dip" >
+            android:padding="4dip">
 
             <TextView
-                android:text=""
-                android:textAppearance="?android:attr/textAppearanceSmall" />
-
-            <TextView
-                 android:id="@+id/contactOffice"
+                android:id="@+id/contactOffice1"
                 android:layout_gravity="left"
                 android:layout_weight="1"
-                android:text="@string/contactOffice"
+                android:text="@string/contactOffice1"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/WTP_mid_blue" />
+                android:textColor="@color/WTP_mid_blue"/>
+
+
+            <TextView
+                android:id="@+id/contactOffice2"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:text="@string/contactOffice2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_mid_blue"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip">
+
+            <TextView
+                android:id="@+id/contactOffice3"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:text="@string/contactOffice3"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_mid_blue"/>
+
+
+            <TextView
+                android:id="@+id/contactOffice4"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:text="@string/contactOffice4"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_mid_blue"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip">
+
+            <TextView
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:text="@string/contactOffice5Label"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip">
+
+            <TextView
+                android:id="@+id/contactOffice5"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:text="@string/contactOffice5"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_mid_blue"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip">
+
+            <TextView
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:text="@string/contactOffice6Label"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dip">
+
+            <TextView
+                android:id="@+id/contactOffice6"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:text="@string/contactOffice6"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/WTP_mid_blue"/>
         </TableRow>
 
         <View
             android:layout_height="2dip"
-            android:background="#FF909090" />
+            android:background="#FF909090"/>
     </TableLayout>
 
 </ScrollView>
