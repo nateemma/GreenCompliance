@@ -20,7 +20,7 @@ public class ContactActivity extends Activity {
 
 	private static final int NUM_EMAILS = 2;
 	private static final int NUM_TELEPHONE_NUMBERS = 6;
-	private static final int NUM_ADDRESSES = 5;
+	private static final int NUM_ADDRESSES = 6;
 
 	private Context mContext=null;
 
